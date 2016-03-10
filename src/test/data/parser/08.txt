@@ -1,52 +1,52 @@
-NeonFile:08.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('common')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('days')
-          PsiElement([Neon] :)(':')
+NeonFile:08.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('common')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('days')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon array
-            PsiElement([Neon] [)('[')
+          Yaml array
+            PsiElement([Yaml] [)('[')
             PsiWhiteSpace(' ')
-            Neon scalar
-              PsiElement([Neon] literal)('Mon')
-            PsiElement([Neon] ,)(',')
+            Yaml scalar
+              PsiElement([Yaml] literal)('Mon')
+            PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
-            Neon scalar
-              PsiElement([Neon] literal)('Tue')
-            PsiElement([Neon] ,)(',')
+            Yaml scalar
+              PsiElement([Yaml] literal)('Tue')
+            PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
-            Neon scalar
-              PsiElement([Neon] literal)('Wed')
+            Yaml scalar
+              PsiElement([Yaml] literal)('Wed')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] ])(']')
-            PsiElement([Neon] indent)('\n')
-        PsiElement([Neon] indent)('\n')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('production')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('days')
-          PsiElement([Neon] :)(':')
+            PsiElement([Yaml] ])(']')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('production')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('days')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon array
-            PsiElement([Neon] [)('[')
+          Yaml array
+            PsiElement([Yaml] [)('[')
             PsiWhiteSpace(' ')
-            Neon scalar
-              PsiElement([Neon] literal)('Sat')
-            PsiElement([Neon] ,)(',')
+            Yaml scalar
+              PsiElement([Yaml] literal)('Sat')
+            PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
-            Neon scalar
-              PsiElement([Neon] literal)('Sun')
+            Yaml scalar
+              PsiElement([Yaml] literal)('Sun')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] ])(']')
+            PsiElement([Yaml] ])(']')

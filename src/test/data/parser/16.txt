@@ -1,410 +1,416 @@
 NeonFile:16.yml
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('roles')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n    ')
-      Neon array
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('roles')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n    ')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon array
-            PsiElement([Neon] {)('{')
+          Yaml array
+            PsiElement([Yaml] {)('{')
             PsiWhiteSpace(' ')
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('role')
-              PsiElement([Neon] :)(':')
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('role')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('common')
-            PsiElement([Neon] ,)(',')
+              Yaml scalar
+                PsiElement([Yaml] literal)('common')
+            PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('domain')
-              PsiElement([Neon] :)(':')
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('domain')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('"')
-                Neon Jinja2
-                  PsiElement([Neon] {{)('{{')
+              Yaml scalar
+                PsiElement([Yaml] literal)('"')
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
                   PsiWhiteSpace(' ')
-                  NeonReferenceImpl([Neon] Reference)
-                    PsiElement([Neon] literal)('p_domain | default(omit)')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('p_domain | default(omit)')
                   PsiWhiteSpace(' ')
-                  PsiElement([Neon] }})('}}')
-                PsiElement([Neon] literal)('"')
-            PsiElement([Neon] ,)(',')
+                  PsiElement([Yaml] }})('}}')
+                PsiElement([Yaml] literal)('"')
+            PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('dns_nameservers')
-              PsiElement([Neon] :)(':')
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('dns_nameservers')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('"')
-                Neon Jinja2
-                  PsiElement([Neon] {{)('{{')
+              Yaml scalar
+                PsiElement([Yaml] literal)('"')
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
                   PsiWhiteSpace(' ')
-                  NeonReferenceImpl([Neon] Reference)
-                    PsiElement([Neon] literal)('p_dns_nameservers | default(omit)')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('p_dns_nameservers | default(omit)')
                   PsiWhiteSpace(' ')
-                  PsiElement([Neon] }})('}}')
-                PsiElement([Neon] literal)('"')
+                  PsiElement([Yaml] }})('}}')
+                PsiElement([Yaml] literal)('"')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] })('}')
-        PsiElement([Neon] indent)('\n    ')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+            PsiElement([Yaml] })('}')
+        PsiElement([Yaml] indent)('\n    ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon array
-            PsiElement([Neon] {)('{')
+          Yaml array
+            PsiElement([Yaml] {)('{')
             PsiWhiteSpace(' ')
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('role')
-              PsiElement([Neon] :)(':')
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('role')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('hosts')
-            PsiElement([Neon] ,)(',')
+              Yaml scalar
+                PsiElement([Yaml] literal)('hosts')
+            PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('domain')
-              PsiElement([Neon] :)(':')
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('domain')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('"')
-                Neon Jinja2
-                  PsiElement([Neon] {{)('{{')
+              Yaml scalar
+                PsiElement([Yaml] literal)('"')
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
                   PsiWhiteSpace(' ')
-                  NeonReferenceImpl([Neon] Reference)
-                    PsiElement([Neon] literal)('p_domain | default(omit)')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('p_domain | default(omit)')
                   PsiWhiteSpace(' ')
-                  PsiElement([Neon] }})('}}')
-                PsiElement([Neon] literal)('"')
+                  PsiElement([Yaml] }})('}}')
+                PsiElement([Yaml] literal)('"')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] })('}')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+            PsiElement([Yaml] })('}')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon array
+          Yaml array
             <empty list>
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('shell')
-          PsiElement([Neon] :)(':')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('shell')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('lsblk -l -n -o NAME')
-            PsiElement([Neon] ,)(',')
-            PsiElement([Neon] literal)('FSTYPE | awk '$NF == "swap"')
+          Yaml scalar
+            PsiElement([Yaml] literal)('lsblk -l -n -o NAME')
+            PsiElement([Yaml] ,)(',')
+            PsiElement([Yaml] literal)('FSTYPE | awk '$NF == "swap"')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] {)('{')
-            PsiElement([Neon] literal)('print $1')
-            PsiElement([Neon] })('}')
-            PsiElement([Neon] literal)(''')
-        PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+            PsiElement([Yaml] {)('{')
+            PsiElement([Yaml] literal)('print $1')
+            PsiElement([Yaml] })('}')
+            PsiElement([Yaml] literal)(''')
+        PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('pass')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('pass')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('"HiddenPa')
-        PsiElement([Neon] })('}')
-        PsiElement([Neon] literal)('s"')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+      Yaml scalar
+        PsiElement([Yaml] literal)('"HiddenPa')
+        PsiElement([Yaml] })('}')
+        PsiElement([Yaml] literal)('s"')
+    PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('postgresql')
-        Neon Jinja2
-          PsiElement([Neon] {{)('{{')
+      Yaml scalar
+        PsiElement([Yaml] literal)('postgresql')
+        Yaml Jinja2
+          PsiElement([Yaml] {{)('{{')
           PsiWhiteSpace(' ')
-          NeonReferenceImpl([Neon] Reference)
-            PsiElement([Neon] literal)('postgresql_version |replace('.'')
-            PsiElement([Neon] ,)(',')
+          NeonReferenceImpl([Yaml] Reference)
+            PsiElement([Yaml] literal)('postgresql_version |replace('.'')
+            PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] string)('''')
-            PsiElement([Neon] ))(')')
+            PsiElement([Yaml] string)('''')
+            PsiElement([Yaml] ))(')')
           PsiWhiteSpace(' ')
-          PsiElement([Neon] }})('}}')
-        PsiElement([Neon] literal)('-devel')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+          PsiElement([Yaml] }})('}}')
+        PsiElement([Yaml] literal)('-devel')
+    PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('create stash files[0')
-        PsiElement([Neon] ])(']')
-        PsiWhiteSpace(' ')
-        PsiElement([Neon] =)('=')
-        PsiElement([Neon] =)('=')
-        PsiWhiteSpace(' ')
-        PsiElement([Neon] string)('"default_empty"')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
-      PsiWhiteSpace(' ')
-      Neon array
+      Yaml scalar
+        PsiElement([Yaml] literal)('create stash files[0')
+        PsiElement([Yaml] ])(']')
+    PsiErrorElement:Expected literal or string, got [Yaml] =
+      <empty list>
+    PsiWhiteSpace(' ')
+    PsiElement([Yaml] =)('=')
+    Yaml key-val pair
+      PsiErrorElement:Expected literal or string, got [Yaml] =
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('command')
-      PsiElement([Neon] :)(':')
+      PsiElement([Yaml] =)('=')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('python2 -c "hashlib.md5('')
-        Neon Jinja2
-          PsiElement([Neon] {{)('{{')
-          PsiWhiteSpace(' ')
-          NeonReferenceImpl([Neon] Reference)
-            PsiElement([Neon] literal)('a')
-          PsiWhiteSpace(' ')
-          PsiElement([Neon] }})('}}')
-        PsiElement([Neon] string)('' + '')
-        Neon Jinja2
-          PsiElement([Neon] {{)('{{')
-          PsiWhiteSpace(' ')
-          NeonReferenceImpl([Neon] Reference)
-            PsiElement([Neon] literal)('b')
-          PsiWhiteSpace(' ')
-          PsiElement([Neon] }})('}}')
-        PsiElement([Neon] literal)('').hexdigest(); print pghash"')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('user')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('name')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('stash_user')
-              PsiElement([Neon] }})('}}')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('failed_when')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      PsiElement([Neon] >)('>\n')
-      PsiWhiteSpace('    ')
-      Neon scalar
-        PsiElement([Neon] string)(''skipped'')
-        PsiWhiteSpace(' ')
-        PsiElement([Neon] literal)('not in artifact_meta_releases')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
-      PsiWhiteSpace(' ')
-      Neon array
+      Yaml key
+        PsiElement([Yaml] string)('"default_empty"')
+      PsiErrorElement:Expected assignment operator, got [Yaml] indent
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('include')
-      PsiElement([Neon] :)(':')
+      PsiElement([Yaml] indent)('\n')
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('init.yml')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
-      PsiWhiteSpace(' ')
-      Neon array
-        <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('add jenkins slave user')
-        PsiWhiteSpace(' ')
-        Neon Jinja2
-          PsiElement([Neon] {{)('{{')
-          NeonReferenceImpl([Neon] Reference)
-            PsiElement([Neon] literal)('jenkins_slave_user')
-          PsiElement([Neon] }})('}}')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('user')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('user')
-        PsiElement([Neon] indent)('\n')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
-      PsiWhiteSpace(' ')
-      Neon array
-        <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('debug2')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('varC')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            PsiElement([Neon] literal)('test')
-            PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('varD')
-            PsiElement([Neon] =)('=')
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
-              PsiWhiteSpace(' ')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('var')
-              PsiWhiteSpace(' ')
-              PsiElement([Neon] }})('}}')
-            PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('key')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key')
-            PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('c')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('1')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
-      PsiWhiteSpace(' ')
-      Neon array
-        <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('debug')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('varA')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            PsiElement([Neon] literal)('"test')
-            PsiWhiteSpace(' ')
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
-              PsiWhiteSpace(' ')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('var')
-              PsiWhiteSpace(' ')
-              PsiElement([Neon] }})('}}')
-            PsiElement([Neon] string)('" varB="')
-            PsiElement([Neon] literal)('test')
-            PsiWhiteSpace(' ')
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
-              PsiWhiteSpace(' ')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('var')
-              PsiWhiteSpace(' ')
-              PsiElement([Neon] }})('}}')
-            PsiElement([Neon] literal)('"')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('service')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('name')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
-              PsiWhiteSpace(' ')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('item')
-              PsiWhiteSpace(' ')
-              PsiElement([Neon] }})('}}')
-            PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('state')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('stopped')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('key')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key')
-        PsiElement([Neon] indent)('\n')
-    PsiElement([Neon] indent)('\n')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('list')
-      PsiElement([Neon] :)(':')
-      PsiWhiteSpace(' ')
-      Neon array
-        PsiElement([Neon] [)('[')
-        Neon scalar
-          PsiElement([Neon] string)('"a"')
-        PsiElement([Neon] ,)(',')
-        Neon scalar
-          PsiElement([Neon] literal)('b')
-        PsiElement([Neon] ,)(',')
-        Neon scalar
-          PsiElement([Neon] literal)('c')
-          PsiElement([Neon] ])(']')
-        PsiElement([Neon] indent)('\n')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('command')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon array
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('item')
-              PsiElement([Neon] :)(':')
-              PsiElement([Neon] indent)('\n    ')
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('item2')
-              PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('python2 -c "hashlib.md5('')
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('"value')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('a')
+              PsiWhiteSpace(' ')
+              PsiElement([Yaml] }})('}}')
+            PsiElement([Yaml] string)('' + '')
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
+              PsiWhiteSpace(' ')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('b')
+              PsiWhiteSpace(' ')
+              PsiElement([Yaml] }})('}}')
+            PsiElement([Yaml] literal)('').hexdigest(); print pghash"')
+        PsiElement([Yaml] indent)('\n  ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('user')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('name')
+              PsiElement([Yaml] =)('=')
+              Yaml scalar
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('stash_user')
+                  PsiElement([Yaml] }})('}}')
+        PsiElement([Yaml] indent)('\n  ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('failed_when')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          PsiElement([Yaml] >)('>\n')
+          PsiWhiteSpace('    ')
+          Yaml scalar
+            PsiElement([Yaml] string)(''skipped'')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] literal)('not in artifact_meta_releases')
+        PsiElement([Yaml] indent)('\n')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('include')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('init.yml')
+        PsiElement([Yaml] indent)('\n')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('name')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('add jenkins slave user')
+            PsiWhiteSpace(' ')
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('jenkins_slave_user')
+              PsiElement([Yaml] }})('}}')
+        PsiElement([Yaml] indent)('\n  ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('user')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('user')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('debug2')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('varC')
+              PsiElement([Yaml] =)('=')
+              Yaml scalar
+                PsiElement([Yaml] literal)('test')
                 PsiWhiteSpace(' ')
-                Neon Jinja2
-                  PsiElement([Neon] {{)('{{')
+                PsiElement([Yaml] literal)('varD')
+                PsiElement([Yaml] =)('=')
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
                   PsiWhiteSpace(' ')
-                  NeonReferenceImpl([Neon] Reference)
-                    PsiElement([Neon] literal)('var')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('var')
                   PsiWhiteSpace(' ')
-                  PsiElement([Neon] }})('}}')
-                PsiElement([Neon] literal)('"')
-        PsiErrorElement:unexpected token null, expected [Neon] ]
-          <empty list>
+                  PsiElement([Yaml] }})('}}')
+                PsiWhiteSpace(' ')
+                PsiElement([Yaml] literal)('key')
+                PsiElement([Yaml] =)('=')
+                PsiElement([Yaml] literal)('http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key')
+                PsiWhiteSpace(' ')
+                PsiElement([Yaml] literal)('c')
+                PsiElement([Yaml] =)('=')
+                PsiElement([Yaml] literal)('1')
+        PsiElement([Yaml] indent)('\n')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('debug')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('varA')
+              PsiElement([Yaml] =)('=')
+              Yaml scalar
+                PsiElement([Yaml] literal)('"test')
+                PsiWhiteSpace(' ')
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
+                  PsiWhiteSpace(' ')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('var')
+                  PsiWhiteSpace(' ')
+                  PsiElement([Yaml] }})('}}')
+                PsiElement([Yaml] string)('" varB="')
+                PsiElement([Yaml] literal)('test')
+                PsiWhiteSpace(' ')
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
+                  PsiWhiteSpace(' ')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('var')
+                  PsiWhiteSpace(' ')
+                  PsiElement([Yaml] }})('}}')
+                PsiElement([Yaml] literal)('"')
+        PsiElement([Yaml] indent)('\n  ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('service')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('name')
+              PsiElement([Yaml] =)('=')
+              Yaml scalar
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
+                  PsiWhiteSpace(' ')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('item')
+                  PsiWhiteSpace(' ')
+                  PsiElement([Yaml] }})('}}')
+                PsiWhiteSpace(' ')
+                PsiElement([Yaml] literal)('state')
+                PsiElement([Yaml] =)('=')
+                PsiElement([Yaml] literal)('stopped')
+        PsiElement([Yaml] indent)('\n  ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('key')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('list')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml array
+            PsiElement([Yaml] [)('[')
+            Yaml scalar
+              PsiElement([Yaml] string)('"a"')
+            PsiElement([Yaml] ,)(',')
+            Yaml scalar
+              PsiElement([Yaml] literal)('b')
+            PsiElement([Yaml] ,)(',')
+            Yaml scalar
+              PsiElement([Yaml] literal)('c')
+            PsiElement([Yaml] ])(']')
+        PsiElement([Yaml] indent)('\n')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('item')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n    ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('item2')
+              PsiElement([Yaml] :)(':')
+              PsiWhiteSpace(' ')
+              Yaml scalar
+                PsiElement([Yaml] literal)('"value')
+                PsiWhiteSpace(' ')
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
+                  PsiWhiteSpace(' ')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('var')
+                  PsiWhiteSpace(' ')
+                  PsiElement([Yaml] }})('}}')
+                PsiElement([Yaml] literal)('"')

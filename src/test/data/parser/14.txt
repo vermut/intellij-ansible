@@ -1,24 +1,22 @@
-NeonFile:14.neon
-  PsiComment([Neon] comment)('# error')
-  PsiElement([Neon] indent)('\n')
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('a')
-      PsiElement([Neon] :)(':')
+NeonFile:14.yml
+  PsiComment([Yaml] comment)('# error')
+  PsiElement([Yaml] indent)('\n')
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('a')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon array
-        PsiElement([Neon] [)('[')
+      Yaml array
+        PsiElement([Yaml] [)('[')
         PsiWhiteSpace(' ')
-        Neon scalar
-          PsiElement([Neon] literal)('1')
-        PsiErrorElement:unexpected token [Neon] ,
-          <empty list>
-        PsiElement([Neon] ,)(',')
+        Yaml scalar
+          PsiElement([Yaml] literal)('1')
+        PsiElement([Yaml] ,)(',')
         PsiWhiteSpace(' ')
-        Neon scalar
-          PsiElement([Neon] literal)('2')
-        PsiErrorElement:unexpected token [Neon] }, expected [Neon] ]
+        Yaml scalar
+          PsiElement([Yaml] literal)('2')
+          PsiWhiteSpace(' ')
+          PsiElement([Yaml] })('}')
+        PsiErrorElement:unexpected token null, expected [Yaml] ]
           <empty list>
-  PsiWhiteSpace(' ')
-  PsiElement([Neon] })('}')

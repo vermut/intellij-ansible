@@ -1,29 +1,29 @@
-NeonFile:02.neon
-  PsiComment([Neon] comment)('# mixing array/hash')
-  PsiElement([Neon] indent)('\n')
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('services')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+NeonFile:02.yml
+  PsiComment([Yaml] comment)('# mixing array/hash')
+  PsiElement([Yaml] indent)('\n')
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('services')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('Mailer')
-        PsiElement([Neon] indent)('\n\t')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('articles')
-          PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Mailer')
+        PsiElement([Yaml] indent)('\n\t')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('articles')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('ArticlesControl')
-        PsiElement([Neon] indent)('\n\t')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('ArticlesControl')
+        PsiElement([Yaml] indent)('\n\t')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('SuperMailer')
+          Yaml scalar
+            PsiElement([Yaml] literal)('SuperMailer')

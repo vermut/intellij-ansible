@@ -1,21 +1,21 @@
-NeonFile:07.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('nette')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('debugger')
-          PsiElement([Neon] :)(':')
-          PsiElement([Neon] indent)('\n\t\t')
-          Neon array
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('browser')
-              PsiElement([Neon] :)(':')
+NeonFile:07.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('nette')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('debugger')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n\t\t')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('browser')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('google-chrome')
+              Yaml scalar
+                PsiElement([Yaml] literal)('google-chrome')

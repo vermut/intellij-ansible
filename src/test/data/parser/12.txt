@@ -1,13 +1,13 @@
-NeonFile:12.neon
-  PsiComment([Neon] comment)('# errors')
-  PsiElement([Neon] indent)('\n')
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('a')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n    ')
-      Neon array
+NeonFile:12.yml
+  PsiComment([Yaml] comment)('# errors')
+  PsiElement([Yaml] indent)('\n')
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('a')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n    ')
+      Yaml array
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] literal)('abc:error')
+        PsiElement([Yaml] literal)('abc:error')

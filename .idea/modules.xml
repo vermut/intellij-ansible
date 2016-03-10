@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USERPROFILE$/IdeaProjects/idea-community/community-main.iml" filepath="$USERPROFILE$/IdeaProjects/idea-community/community-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/intellij-ansible.iml" filepath="$PROJECT_DIR$/.idea/intellij-ansible.iml" />
     </modules>
   </component>

@@ -1,15 +1,15 @@
-NeonFile:04.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('php')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('date.timezone')
-          PsiElement([Neon] :)(':')
+NeonFile:04.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('php')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('date.timezone')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('Europe/Prague')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Europe/Prague')

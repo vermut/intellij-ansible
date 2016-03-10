@@ -1,61 +1,61 @@
-NeonFile:10.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('common')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('parameters')
-          PsiElement([Neon] :)(':')
-          PsiElement([Neon] indent)('\n\t\t')
-          Neon array
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('foo')
-              PsiElement([Neon] :)(':')
+NeonFile:10.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('common')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('parameters')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n\t\t')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('foo')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('2')
-            PsiElement([Neon] indent)('\n')
-            PsiElement([Neon] indent)('\n\t\t')
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('x')
-              PsiElement([Neon] :)(':')
+              Yaml scalar
+                PsiElement([Yaml] literal)('2')
+                PsiElement([Yaml] indent)('\n')
+            PsiElement([Yaml] indent)('\n\t\t')
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('x')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('dummy')
-            PsiElement([Neon] indent)('\n')
-            PsiElement([Neon] indent)('\n\t')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('bar')
-          PsiElement([Neon] :)(':')
+              Yaml scalar
+                PsiElement([Yaml] literal)('dummy')
+                PsiElement([Yaml] indent)('\n')
+            PsiElement([Yaml] indent)('\n\t')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('bar')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('2')
-        PsiElement([Neon] indent)('\n')
-        PsiComment([Neon] comment)('# comment with lower indent must not return the parser')
-        PsiElement([Neon] indent)('\n\t')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('baz')
-          PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('2')
+            PsiElement([Yaml] indent)('\n')
+        PsiComment([Yaml] comment)('# comment with lower indent must not return the parser')
+        PsiElement([Yaml] indent)('\n\t')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('baz')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('3')
-        PsiElement([Neon] indent)('\n')
-        PsiElement([Neon] indent)('\n')
-        PsiComment([Neon] comment)('# comment with lower indent must not return the parser')
-        PsiElement([Neon] indent)('\n')
-        PsiElement([Neon] indent)('\n\t')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('baq')
-          PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('3')
+            PsiElement([Yaml] indent)('\n')
+            PsiElement([Yaml] indent)('\n')
+            PsiComment([Yaml] comment)('# comment with lower indent must not return the parser')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n\t')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('baq')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('4')
+          Yaml scalar
+            PsiElement([Yaml] literal)('4')

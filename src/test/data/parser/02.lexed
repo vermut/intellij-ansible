@@ -1,18 +1,18 @@
-[Neon] comment
-[Neon] indent
-[Neon] literal
-[Neon] :
-[Neon] indent
-[Neon] -
+[Yaml] comment
+[Yaml] indent
+[Yaml] literal
+[Yaml] :
+[Yaml] indent
+[Yaml] -
 WHITE_SPACE
-[Neon] literal
-[Neon] indent
-[Neon] literal
-[Neon] :
+[Yaml] literal
+[Yaml] indent
+[Yaml] literal
+[Yaml] :
 WHITE_SPACE
-[Neon] literal
-[Neon] indent
-[Neon] -
+[Yaml] literal
+[Yaml] indent
+[Yaml] -
 WHITE_SPACE
-[Neon] literal
-[Neon] indent
+[Yaml] literal
+[Yaml] indent

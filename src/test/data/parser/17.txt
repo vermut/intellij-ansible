@@ -1,71 +1,71 @@
 NeonFile:17.yml
-  PsiElement([Neon] header)('--- Issue #4')
-  PsiElement([Neon] indent)('\n')
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+  PsiElement([Yaml] header)('--- Issue #4')
+  PsiElement([Yaml] indent)('\n')
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('Create conf')
-    PsiElement([Neon] indent)('\n')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('copy')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n  ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('dest')
-          PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('Create conf')
+    PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('copy')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n  ')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('dest')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('/etc/myfine.conf')
-        PsiElement([Neon] indent)('\n  ')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('content')
-          PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('/etc/myfine.conf')
+        PsiElement([Yaml] indent)('\n  ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('content')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('|')
-        PsiElement([Neon] indent)('\n    ')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('foo')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
+          Yaml scalar
+            PsiElement([Yaml] literal)('|')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('foo')
+          PsiElement([Yaml] =)('=')
+          Yaml scalar
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
               PsiWhiteSpace(' ')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('var1')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('var1')
               PsiWhiteSpace(' ')
-              PsiElement([Neon] }})('}}')
-        PsiElement([Neon] indent)('\n    ')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('bar')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
+              PsiElement([Yaml] }})('}}')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('bar')
+          PsiElement([Yaml] =)('=')
+          Yaml scalar
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
               PsiWhiteSpace(' ')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('var2')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('var2')
               PsiWhiteSpace(' ')
-              PsiElement([Neon] }})('}}')
-        PsiElement([Neon] indent)('\n  ')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('tags')
-          PsiElement([Neon] :)(':')
-          PsiElement([Neon] indent)('\n    ')
-          Neon array
-            NeonPsiElementImpl([Neon] Item)
-              PsiElement([Neon] -)('-')
+              PsiElement([Yaml] }})('}}')
+        PsiElement([Yaml] indent)('\n  ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('tags')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n    ')
+          Yaml array
+            NeonPsiElementImpl([Yaml] Item)
+              PsiElement([Yaml] -)('-')
               PsiWhiteSpace(' ')
-              Neon scalar
-                PsiElement([Neon] literal)('working')
+              Yaml scalar
+                PsiElement([Yaml] literal)('working')

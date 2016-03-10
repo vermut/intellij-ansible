@@ -79,7 +79,7 @@ public class ParserTest extends ParsingTestCase {
 
 	@Test
 	public void test11() {
-		doTest(true, false);
+		doTest(true, true);
 	}
 
 	@Test
@@ -89,7 +89,7 @@ public class ParserTest extends ParsingTestCase {
 
 	@Test
 	public void test13() {
-		doTest(true, true);
+		doTest(true, false);
 	}
 
 	@Test
@@ -102,9 +102,9 @@ public class ParserTest extends ParsingTestCase {
 		doTest(true, true);
 	}
 
-	@Test
+    @Test
 	public void test16() {
-		doTest(true, false);
+		doTest(true, true);
 	}
 
 	@Test
@@ -112,8 +112,9 @@ public class ParserTest extends ParsingTestCase {
 		doTest(true, false);
 	}
 
+    @Test
 	public void test18() {
-		doTest(true, false);
+		doTest(true, true);
 	}
 
 }

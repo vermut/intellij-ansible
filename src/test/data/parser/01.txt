@@ -1,17 +1,17 @@
-NeonFile:01.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+NeonFile:01.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('Jan')
-    PsiElement([Neon] indent)('\n')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('surname')
-      PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('Jan')
+    PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('surname')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] string)('"Dolecek"')
+      Yaml scalar
+        PsiElement([Yaml] string)('"Dolecek"')

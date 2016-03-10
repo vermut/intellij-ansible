@@ -1,10 +1,10 @@
-[Neon] literal
-[Neon] :
+[Yaml] literal
+[Yaml] :
 WHITE_SPACE
-[Neon] literal
-[Neon] indent
-[Neon] literal
-[Neon] :
+[Yaml] literal
+[Yaml] indent
+[Yaml] literal
+[Yaml] :
 WHITE_SPACE
-[Neon] string
-[Neon] indent
+[Yaml] string
+[Yaml] indent

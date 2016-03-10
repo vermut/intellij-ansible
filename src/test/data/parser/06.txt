@@ -1,26 +1,21 @@
-NeonFile:06.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('doctrine')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('metadata')
-          PsiElement([Neon] :)(':')
-          PsiElement([Neon] indent)('\n\t\t')
-          Neon array
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('At')
-              PsiElement([Neon] :)(':')
+NeonFile:06.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('doctrine')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('metadata')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n\t\t')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('At')
+              PsiElement([Yaml] :)(':')
               PsiWhiteSpace(' ')
-              Neon entity
-                PsiElement([Neon] literal)('annotations')
-                Neon array
-                  PsiElement([Neon] ()('(')
-                  Neon scalar
-                    PsiElement([Neon] literal)('%appDir%/models/At')
-                  PsiElement([Neon] ))(')')
+              Yaml scalar
+                PsiElement([Yaml] literal)('annotations(%appDir%/models/At)')

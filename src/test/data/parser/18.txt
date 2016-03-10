@@ -1,335 +1,333 @@
 NeonFile:18.yml
-  PsiElement([Neon] header)('---')
-  PsiElement([Neon] indent)('\n')
-  Neon array
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+  PsiElement([Yaml] header)('---')
+  PsiElement([Yaml] indent)('\n')
+  Yaml array
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('add ppa for nodejs')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('action')
-      PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('add ppa for nodejs')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('action')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('apt_repository repo='ppa:chris-lea/node.js' update_cache=yes')
-        PsiElement([Neon] indent)('\n')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+      Yaml scalar
+        PsiElement([Yaml] literal)('apt_repository repo='ppa:chris-lea/node.js' update_cache=yes')
+        PsiElement([Yaml] indent)('\n')
+    PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('ensure packages are installed')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('action')
-      PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('ensure packages are installed')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('action')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('apt pkg=')
-        Neon Jinja2
-          PsiElement([Neon] {{)('{{')
+      Yaml scalar
+        PsiElement([Yaml] literal)('apt pkg=')
+        Yaml Jinja2
+          PsiElement([Yaml] {{)('{{')
           PsiWhiteSpace(' ')
-          NeonReferenceImpl([Neon] Reference)
-            PsiElement([Neon] literal)('item')
+          NeonReferenceImpl([Yaml] Reference)
+            PsiElement([Yaml] literal)('item')
           PsiWhiteSpace(' ')
-          PsiElement([Neon] }})('}}')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('with_items')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n      ')
-      Neon array
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+          PsiElement([Yaml] }})('}}')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('with_items')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n      ')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('nodejs')
-        PsiElement([Neon] indent)('\n      ')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('nodejs')
+        PsiElement([Yaml] indent)('\n      ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('ruby')
-        PsiElement([Neon] indent)('\n      ')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('ruby')
+        PsiElement([Yaml] indent)('\n      ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('rubygems')
-            PsiElement([Neon] indent)('\n')
-        PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('rubygems')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('install gems for asset compilation')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('gem')
-      PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('install gems for asset compilation')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('gem')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('name')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            Neon Jinja2
-              PsiElement([Neon] {{)('{{')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('name')
+          PsiElement([Yaml] =)('=')
+          Yaml scalar
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
               PsiWhiteSpace(' ')
-              NeonReferenceImpl([Neon] Reference)
-                PsiElement([Neon] literal)('item')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('item')
               PsiWhiteSpace(' ')
-              PsiElement([Neon] }})('}}')
+              PsiElement([Yaml] }})('}}')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('state')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('present')
+            PsiElement([Yaml] literal)('state')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('present')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('user_install')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('no')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('with_items')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n      ')
-      Neon array
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+            PsiElement([Yaml] literal)('user_install')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('no')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('with_items')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n      ')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('sass')
-        PsiElement([Neon] indent)('\n      ')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('sass')
+        PsiElement([Yaml] indent)('\n      ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('compass')
-            PsiElement([Neon] indent)('\n')
-        PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('compass')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('install grunt for asset compilation')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('npm')
-      PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('install grunt for asset compilation')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('npm')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('name')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            PsiElement([Neon] literal)('grunt-cli')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('name')
+          PsiElement([Yaml] =)('=')
+          Yaml scalar
+            PsiElement([Yaml] literal)('grunt-cli')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('version')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('0.1.13')
+            PsiElement([Yaml] literal)('version')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('0.1.13')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('global')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('yes')
+            PsiElement([Yaml] literal)('global')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('yes')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('state')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('present')
-            PsiElement([Neon] indent)('\n')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+            PsiElement([Yaml] literal)('state')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('present')
+            PsiElement([Yaml] indent)('\n')
+    PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('install bower for asset dependencies')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('npm')
-      PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('install bower for asset dependencies')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('npm')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('name')
-          PsiElement([Neon] =)('=')
-          Neon scalar
-            PsiElement([Neon] literal)('bower')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('name')
+          PsiElement([Yaml] =)('=')
+          Yaml scalar
+            PsiElement([Yaml] literal)('bower')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('version')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('1.3.9')
+            PsiElement([Yaml] literal)('version')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('1.3.9')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('global')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('yes')
+            PsiElement([Yaml] literal)('global')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('yes')
             PsiWhiteSpace(' ')
-            PsiElement([Neon] literal)('state')
-            PsiElement([Neon] =)('=')
-            PsiElement([Neon] literal)('present')
-            PsiElement([Neon] indent)('\n')
-    PsiElement([Neon] indent)('\n')
-    NeonPsiElementImpl([Neon] Item)
-      PsiElement([Neon] -)('-')
+            PsiElement([Yaml] literal)('state')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] literal)('present')
+            PsiElement([Yaml] indent)('\n')
+    PsiElement([Yaml] indent)('\n')
+    NeonPsiElementImpl([Yaml] Item)
+      PsiElement([Yaml] -)('-')
       PsiWhiteSpace(' ')
-      Neon array
+      Yaml array
         <empty list>
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('name')
-      PsiElement([Neon] :)(':')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('name')
+      PsiElement([Yaml] :)(':')
       PsiWhiteSpace(' ')
-      Neon scalar
-        PsiElement([Neon] literal)('Write JolokiaCollector.conf file')
-    PsiElement([Neon] indent)('\n  ')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('copy')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n    ')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('dest')
-          PsiElement([Neon] :)(':')
+      Yaml scalar
+        PsiElement([Yaml] literal)('Write JolokiaCollector.conf file')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('copy')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n    ')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('dest')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('/etc/diamond/collectors/JolokiaCollector.conf')
-        PsiElement([Neon] indent)('\n    ')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('content')
-          PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('/etc/diamond/collectors/JolokiaCollector.conf')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('content')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('|')
-        PsiElement([Neon] indent)('\n      ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('|')
+        PsiElement([Yaml] indent)('\n      ')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] literal)('host = 'localhost'')
-        PsiElement([Neon] indent)('\n      ')
+        PsiElement([Yaml] literal)('host = 'localhost'')
+        PsiElement([Yaml] indent)('\n      ')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] literal)('enabled = True')
-        PsiElement([Neon] indent)('\n      ')
+        PsiElement([Yaml] literal)('enabled = True')
+        PsiElement([Yaml] indent)('\n      ')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] literal)('port =')
+        PsiElement([Yaml] literal)('port =')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
         PsiWhiteSpace(' ')
-        PsiElement([Neon] {{)('{{')
+        PsiElement([Yaml] {{)('{{')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] literal)('mamido_basepkg_metrics_diamond_jolokia_port')
+        PsiElement([Yaml] literal)('mamido_basepkg_metrics_diamond_jolokia_port')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] }})('}}')
-        PsiElement([Neon] indent)('\n      ')
+        PsiElement([Yaml] }})('}}')
+        PsiElement([Yaml] indent)('\n      ')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] {)('{')
+        PsiElement([Yaml] {{)('{%')
         PsiErrorElement:expected key-val pair or array item
           <empty list>
-        PsiElement([Neon] literal)('% if mamido_basepkg_metrics_diamond_jolokia_mbeans|length > 0 %')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] })('}')
-  PsiElement([Neon] indent)('\n      ')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] literal)('mbeans = '')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] {{)('{{')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiWhiteSpace(' ')
-  PsiElement([Neon] literal)('mamido_basepkg_metrics_diamond_jolokia_mbeans|join("|")')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiWhiteSpace(' ')
-  PsiElement([Neon] }})('}}')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] literal)(''')
-  PsiElement([Neon] indent)('\n      ')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] {)('{')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] literal)('% endif %')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] })('}')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] literal)('\n')
-  PsiElement([Neon] indent)('\n  ')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] literal)('notify')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] :)(':')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiWhiteSpace(' ')
-  PsiElement([Neon] literal)('Restart diamond')
-  PsiElement([Neon] indent)('\n  ')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] literal)('when')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiElement([Neon] :)(':')
-  PsiErrorElement:unexpected token at end of file
-    <empty list>
-  PsiWhiteSpace(' ')
-  PsiElement([Neon] literal)('mamido_basepkg_metrics_diamond_jolokia_port')
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] literal)('if mamido_basepkg_metrics_diamond_jolokia_mbeans|length > 0')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] }})('%}')
+        PsiElement([Yaml] indent)('\n      ')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiElement([Yaml] literal)('mbeans = '')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiElement([Yaml] {{)('{{')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] literal)('mamido_basepkg_metrics_diamond_jolokia_mbeans|join("|")')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] }})('}}')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiElement([Yaml] literal)(''')
+        PsiElement([Yaml] indent)('\n      ')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiElement([Yaml] {{)('{%')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] literal)('endif')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] }})('%}')
+        PsiErrorElement:expected key-val pair or array item
+          <empty list>
+        PsiElement([Yaml] literal)('\n')
+        PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('notify')
+      PsiElement([Yaml] :)(':')
+      PsiWhiteSpace(' ')
+      Yaml scalar
+        PsiElement([Yaml] literal)('Restart diamond')
+    PsiElement([Yaml] indent)('\n  ')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('when')
+      PsiElement([Yaml] :)(':')
+      PsiWhiteSpace(' ')
+      Yaml scalar
+        PsiElement([Yaml] literal)('mamido_basepkg_metrics_diamond_jolokia_port')

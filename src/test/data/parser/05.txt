@@ -1,27 +1,27 @@
-NeonFile:05.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('nette')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('application')
-          PsiElement([Neon] :)(':')
-          PsiElement([Neon] indent)('\n\t\t')
-          Neon array
-            Neon key-val pair
-              Neon key
-                PsiElement([Neon] literal)('mapping')
-              PsiElement([Neon] :)(':')
-              PsiElement([Neon] indent)('\n\t\t\t')
-              Neon array
-                Neon key-val pair
-                  Neon key
-                    PsiElement([Neon] literal)('*')
-                  PsiElement([Neon] :)(':')
+NeonFile:05.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('nette')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('application')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n\t\t')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('mapping')
+              PsiElement([Yaml] :)(':')
+              PsiElement([Yaml] indent)('\n\t\t\t')
+              Yaml array
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('*')
+                  PsiElement([Yaml] :)(':')
                   PsiWhiteSpace(' ')
-                  Neon scalar
-                    PsiElement([Neon] literal)('At\*Module\*Presenter')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('At\*Module\*Presenter')

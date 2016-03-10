@@ -1,38 +1,23 @@
-NeonFile:09.neon
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('parameters')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('entity')
-          PsiElement([Neon] :)(':')
+NeonFile:09.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('parameters')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('entity')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon entity
-            PsiElement([Neon] literal)('Column')
-            Neon array
-              PsiElement([Neon] ()('(')
-              Neon scalar
-                PsiElement([Neon] literal)('pepa')
-              PsiElement([Neon] ,)(',')
-              PsiWhiteSpace(' ')
-              Neon key-val pair
-                Neon key
-                  PsiElement([Neon] literal)('type')
-                PsiElement([Neon] =)('=')
-                Neon scalar
-                  PsiElement([Neon] string)('"integer"')
-              PsiElement([Neon] ,)(',')
-              PsiWhiteSpace(' ')
-              Neon key-val pair
-                Neon key
-                  PsiElement([Neon] literal)('defaultValue')
-                PsiWhiteSpace(' ')
-                PsiElement([Neon] =)('=')
-                PsiWhiteSpace(' ')
-                Neon scalar
-                  PsiElement([Neon] literal)('1')
-              PsiElement([Neon] ))(')')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Column(pepa')
+            PsiElement([Yaml] ,)(',')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] literal)('type')
+            PsiElement([Yaml] =)('=')
+            PsiElement([Yaml] string)('"integer"')
+            PsiElement([Yaml] ,)(',')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] literal)('defaultValue = 1)')

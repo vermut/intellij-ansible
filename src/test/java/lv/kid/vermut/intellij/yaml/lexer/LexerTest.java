@@ -45,10 +45,11 @@ public class LexerTest extends UsefulTestCase {
             if (idx >= expectedTokens.length) fail("Too many tokens from lexer; unexpected " + lexer.getTokenType());
 
             Pair expected = expectedTokens[idx++];
-            assertEquals("Wrong token", expected.fst, lexer.getTokenType());
 
             String tokenText = lexer.getBufferSequence().subSequence(lexer.getTokenStart(), lexer.getTokenEnd()).toString();
             assertEquals(expected.snd, tokenText);
+
+            assertEquals("Wrong token " + tokenText, expected.fst, lexer.getTokenType());
             lexer.advance();
         }
 
@@ -147,7 +148,7 @@ public class LexerTest extends UsefulTestCase {
     }
 
     public void testArrayWithJinjaVars() throws Exception {
-        doTest("name: {foo: \"bar\",ansible: \"{{ var }} \\\" {{var}}\" }", new Pair[]{
+        doTest("name: {foo: \"bar\",ansible: \"{{ var2 }} \\\" {{var3}}\" }", new Pair[]{
                 Pair.of(NEON_LITERAL, "name"),
                 Pair.of(NEON_COLON, ":"),
                 Pair.of(NEON_WHITESPACE, " "),
@@ -162,6 +163,17 @@ public class LexerTest extends UsefulTestCase {
                 Pair.of(NEON_WHITESPACE, " "),
                 Pair.of(NEON_LITERAL, "\""),
                 Pair.of(NEON_LBRACE_JINJA, "{{"),
+                Pair.of(NEON_WHITESPACE, " "),
+                Pair.of(NEON_LITERAL, "var2"),
+                Pair.of(NEON_WHITESPACE, " "),
+                Pair.of(NEON_RBRACE_JINJA, "}}"),
+                Pair.of(NEON_WHITESPACE, " "),
+                Pair.of(NEON_LITERAL, "\\\""),
+                Pair.of(NEON_WHITESPACE, " "),
+                Pair.of(NEON_LBRACE_JINJA, "{{"),
+                Pair.of(NEON_LITERAL, "var3"),
+                Pair.of(NEON_RBRACE_JINJA, "}}"),
+                Pair.of(NEON_LITERAL, "\""),
                 Pair.of(NEON_WHITESPACE, " "),
                 Pair.of(NEON_RBRACE_CURLY, "}"),
         });
@@ -209,17 +221,12 @@ public class LexerTest extends UsefulTestCase {
                 Pair.of(NEON_LITERAL, "var"),
                 Pair.of(NEON_WHITESPACE, " "),
                 Pair.of(NEON_RBRACE_JINJA, "}}"),
-                Pair.of(NEON_LITERAL, "\""),
-                Pair.of(NEON_WHITESPACE, " "),
-                Pair.of(NEON_LITERAL, "key2"),
-                Pair.of(NEON_ASSIGNMENT, "="),
-                Pair.of(NEON_LITERAL, "\"pref-{{ var }}\""),
+                Pair.of(NEON_STRING, "\" key2=\""),
+                Pair.of(NEON_LITERAL, "pref-"),
                 Pair.of(NEON_LBRACE_JINJA, "{{"),
-                Pair.of(NEON_WHITESPACE, " "),
-                Pair.of(NEON_LITERAL, "var1"),
-                Pair.of(NEON_WHITESPACE, " "),
+                Pair.of(NEON_LITERAL, "var"),
                 Pair.of(NEON_RBRACE_JINJA, "}}"),
-                Pair.of(NEON_WHITESPACE, " "),
+                Pair.of(NEON_LITERAL, "\""),
         });
     }
 

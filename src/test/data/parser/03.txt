@@ -1,57 +1,52 @@
-NeonFile:03.neon
-  PsiComment([Neon] comment)('# factories')
-  PsiElement([Neon] indent)('\n')
-  Neon array
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('services')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('ropanel1')
-          PsiElement([Neon] :)(':')
+NeonFile:03.yml
+  PsiComment([Yaml] comment)('# factories')
+  PsiElement([Yaml] indent)('\n')
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('services')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('ropanel1')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('Nette\Application\Diagnostics\RoutingPanel::initialize')
-        PsiElement([Neon] indent)('\n\t')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('ropanel2')
-          PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Nette\Application\Diagnostics\RoutingPanel::initialize')
+        PsiElement([Yaml] indent)('\n\t')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('ropanel2')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon entity
-            PsiElement([Neon] literal)('Nette\Application\Diagnostics\RoutingPanel::initialize')
-            Neon array
-              PsiElement([Neon] ()('(')
-              Neon scalar
-                PsiElement([Neon] literal)('test')
-              PsiElement([Neon] ))(')')
-        PsiElement([Neon] indent)('\n\t')
-        Neon key-val pair
-          Neon key
-            PsiElement([Neon] literal)('httpRequest')
-          PsiElement([Neon] :)(':')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Nette\Application\Diagnostics\RoutingPanel::initialize(test)')
+        PsiElement([Yaml] indent)('\n\t')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('httpRequest')
+          PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('@httpRequestFactory::createHttpRequest')
-            PsiElement([Neon] indent)('\n')
-        PsiElement([Neon] indent)('\n')
-    Neon key-val pair
-      Neon key
-        PsiElement([Neon] literal)('panels')
-      PsiElement([Neon] :)(':')
-      PsiElement([Neon] indent)('\n\t')
-      Neon array
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('@httpRequestFactory::createHttpRequest')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('panels')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n\t')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('Nette\Application\Diagnostics\RoutingPanel::initialize')
-        PsiElement([Neon] indent)('\n\t')
-        NeonPsiElementImpl([Neon] Item)
-          PsiElement([Neon] -)('-')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Nette\Application\Diagnostics\RoutingPanel::initialize')
+        PsiElement([Yaml] indent)('\n\t')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
           PsiWhiteSpace(' ')
-          Neon scalar
-            PsiElement([Neon] literal)('@httpRequestFactory::start')
+          Yaml scalar
+            PsiElement([Yaml] literal)('@httpRequestFactory::start')
