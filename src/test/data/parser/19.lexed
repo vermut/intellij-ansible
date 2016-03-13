@@ -1,0 +1,46 @@
+[Yaml] literal
+[Yaml] :
+WHITE_SPACE
+[Yaml] literal
+[Yaml] indent
+[Yaml] literal
+[Yaml] indent
+[Yaml] literal
+[Yaml] indent
+[Yaml] literal
+WHITE_SPACE
+[Yaml] {{
+[Yaml] literal
+[Yaml] }}
+[Yaml] indent
+[Yaml] {{
+WHITE_SPACE
+[Yaml] literal
+WHITE_SPACE
+[Yaml] }}
+[Yaml] indent
+[Yaml] literal
+[Yaml] {{
+WHITE_SPACE
+[Yaml] literal
+WHITE_SPACE
+[Yaml] }}
+[Yaml] literal
+[Yaml] indent
+[Yaml] {{
+WHITE_SPACE
+[Yaml] literal
+WHITE_SPACE
+[Yaml] }}
+[Yaml] literal
+[Yaml] indent
+[Yaml] literal
+[Yaml] :
+WHITE_SPACE
+[Yaml] literal
+[Yaml] indent
+[Yaml] literal
+[Yaml] :
+WHITE_SPACE
+[Yaml] literal
+[Yaml] indent

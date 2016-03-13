@@ -10,7 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/data" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="IntelliJ IDEA IU-141.2735.5" jdkType="IDEA JDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JFlex" level="project" />
   </component>

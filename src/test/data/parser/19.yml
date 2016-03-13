@@ -1,0 +1,9 @@
+content: |
+      host = 'localhost'
+      enabled = True
+      port = {{mamido_basepkg_metrics_diamond_jolokia_port}}
+      {% if mamido_basepkg_metrics_diamond_jolokia_mbeans|length > 0 %}
+      mbeans = '{{ mamido_basepkg_metrics_diamond_jolokia_mbeans|join("|") }}'
+      {% endif %}\n
+notify: Restart diamond
+when: mamido_basepkg_metrics_diamond_jolokia_port
