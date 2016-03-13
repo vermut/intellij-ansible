@@ -29,21 +29,21 @@ NeonFile:17.yml
             PsiElement([Yaml] literal)('content')
           PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          Yaml scalar
-            PsiElement([Yaml] literal)('|')
-        PsiElement([Yaml] indent)('\n    ')
-        Yaml key-val pair
-          Yaml key
-            PsiElement([Yaml] literal)('foo')
-          PsiElement([Yaml] =)('=')
-          Yaml scalar
-            Yaml Jinja2
-              PsiElement([Yaml] {{)('{{')
-              PsiWhiteSpace(' ')
-              NeonReferenceImpl([Yaml] Reference)
-                PsiElement([Yaml] literal)('var1')
-              PsiWhiteSpace(' ')
-              PsiElement([Yaml] }})('}}')
+          PsiElement([Yaml] >)('|')
+          PsiElement([Yaml] indent)('\n    ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('foo')
+              PsiElement([Yaml] =)('=')
+              Yaml scalar
+                Yaml Jinja2
+                  PsiElement([Yaml] {{)('{{')
+                  PsiWhiteSpace(' ')
+                  NeonReferenceImpl([Yaml] Reference)
+                    PsiElement([Yaml] literal)('var1')
+                  PsiWhiteSpace(' ')
+                  PsiElement([Yaml] }})('}}')
         PsiElement([Yaml] indent)('\n    ')
         Yaml key-val pair
           Yaml key

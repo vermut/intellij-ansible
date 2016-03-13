@@ -15,10 +15,10 @@
             <li>Documentation lookup</li>
         </ul>
         <br/>
-        <p>This is a very basic version and needs a lot of polishing. Please help at the
-            https://github.com/vermut/intellij-ansible</p>
+        <p>Changes: fixed multiline: | <br>
+        notation</p>
         ]]></description>
-    <version>0.8.0</version>
+    <version>0.9.0</version>
     <vendor url="https://github.com/vermut/intellij-ansible" email="vermut@kid.lv">Pavel Veretennikov</vendor>
     <idea-version since-build="111.0"/>
     <depends>com.intellij.modules.lang</depends>

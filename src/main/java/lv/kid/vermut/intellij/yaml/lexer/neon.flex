@@ -1,8 +1,8 @@
-package cz.juzna.intellij.neon.lexer;
+package lv.kid.vermut.intellij.yaml.lexer;
 
 import com.intellij.lexer.FlexLexer;
 import com.intellij.psi.tree.IElementType;
-import static NeonTokenTypes.*;
+import static lv.kid.vermut.intellij.yaml.lexer.NeonTokenTypes.*;
 %%
 %class _NeonLexer
 %implements FlexLexer
@@ -62,7 +62,7 @@ NEWLINE = \r\n|[\r\n\u2028\u2029\u000B\u000C\u0085]
     ":" / [ \t\n,\]})] { return NEON_COLON; }
     ":" $ { return NEON_COLON; }
     ","   { return NEON_ITEM_DELIMITER; }
-    ">" {WHITESPACE}* {NEWLINE} { return NEON_LINE_CONTINUATION; }
+    ">" | "|" {WHITESPACE}* { return NEON_LINE_CONTINUATION; }
 
     "(" { return NEON_LPAREN; }
     ")" { return NEON_RPAREN; }

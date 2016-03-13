@@ -246,75 +246,47 @@ NeonFile:18.yml
             PsiElement([Yaml] literal)('content')
           PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
+          PsiElement([Yaml] >)('|')
+          PsiElement([Yaml] indent)('\n      ')
           Yaml scalar
-            PsiElement([Yaml] literal)('|')
-        PsiElement([Yaml] indent)('\n      ')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] literal)('host = 'localhost'')
-        PsiElement([Yaml] indent)('\n      ')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] literal)('enabled = True')
-        PsiElement([Yaml] indent)('\n      ')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] literal)('port =')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiWhiteSpace(' ')
-        PsiElement([Yaml] {{)('{{')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] literal)('mamido_basepkg_metrics_diamond_jolokia_port')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] }})('}}')
-        PsiElement([Yaml] indent)('\n      ')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] {{)('{%')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiWhiteSpace(' ')
-        PsiElement([Yaml] literal)('if mamido_basepkg_metrics_diamond_jolokia_mbeans|length > 0')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiWhiteSpace(' ')
-        PsiElement([Yaml] }})('%}')
-        PsiElement([Yaml] indent)('\n      ')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] literal)('mbeans = '')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] {{)('{{')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiWhiteSpace(' ')
-        PsiElement([Yaml] literal)('mamido_basepkg_metrics_diamond_jolokia_mbeans|join("|")')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiWhiteSpace(' ')
-        PsiElement([Yaml] }})('}}')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] literal)(''')
-        PsiElement([Yaml] indent)('\n      ')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] {{)('{%')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiWhiteSpace(' ')
-        PsiElement([Yaml] literal)('endif')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiWhiteSpace(' ')
-        PsiElement([Yaml] }})('%}')
-        PsiErrorElement:expected key-val pair or array item
-          <empty list>
-        PsiElement([Yaml] literal)('\n')
+            PsiElement([Yaml] literal)('host = 'localhost'')
+            PsiElement([Yaml] indent)('\n      ')
+            PsiElement([Yaml] literal)('enabled = True')
+            PsiElement([Yaml] indent)('\n      ')
+            PsiElement([Yaml] literal)('port =')
+            PsiWhiteSpace(' ')
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('mamido_basepkg_metrics_diamond_jolokia_port')
+              PsiElement([Yaml] }})('}}')
+            PsiElement([Yaml] indent)('\n      ')
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{%')
+              PsiWhiteSpace(' ')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('if mamido_basepkg_metrics_diamond_jolokia_mbeans|length > 0')
+              PsiWhiteSpace(' ')
+              PsiElement([Yaml] }})('%}')
+            PsiElement([Yaml] indent)('\n      ')
+            PsiElement([Yaml] literal)('mbeans = '')
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
+              PsiWhiteSpace(' ')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('mamido_basepkg_metrics_diamond_jolokia_mbeans|join("|")')
+              PsiWhiteSpace(' ')
+              PsiElement([Yaml] }})('}}')
+            PsiElement([Yaml] literal)(''')
+            PsiElement([Yaml] indent)('\n      ')
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{%')
+              PsiWhiteSpace(' ')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('endif')
+              PsiWhiteSpace(' ')
+              PsiElement([Yaml] }})('%}')
+            PsiElement([Yaml] literal)('\n')
         PsiElement([Yaml] indent)('\n  ')
     Yaml key-val pair
       Yaml key

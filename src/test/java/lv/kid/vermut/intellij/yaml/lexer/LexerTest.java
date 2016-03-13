@@ -111,8 +111,8 @@ public class LexerTest extends UsefulTestCase {
                 Pair.of(NEON_LITERAL, "name"),
                 Pair.of(NEON_COLON, ":"),
                 Pair.of(NEON_WHITESPACE, " "),
-                Pair.of(NEON_LINE_CONTINUATION, ">\n"),
-                Pair.of(NEON_WHITESPACE, "   "),
+                Pair.of(NEON_LINE_CONTINUATION, ">"),
+                Pair.of(NEON_INDENT, "\n   "),
                 Pair.of(NEON_LITERAL, "var"),
         });
     }

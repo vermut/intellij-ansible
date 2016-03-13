@@ -217,8 +217,8 @@ NeonFile:16.yml
             PsiElement([Yaml] literal)('failed_when')
           PsiElement([Yaml] :)(':')
           PsiWhiteSpace(' ')
-          PsiElement([Yaml] >)('>\n')
-          PsiWhiteSpace('    ')
+          PsiElement([Yaml] >)('>')
+          PsiElement([Yaml] indent)('\n    ')
           Yaml scalar
             PsiElement([Yaml] string)(''skipped'')
             PsiWhiteSpace(' ')
