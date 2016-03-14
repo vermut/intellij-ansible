@@ -1,0 +1,32 @@
+includes:
+  - python-file: openstack_functions.py
+
+pipelines:
+  - name: check
+    description: Newly uploaded patchsets enter this pipeline to receive an initial +/-1 Verified vote from Jenkins.
+    success-message: Build succeeded (check pipeline).
+    failure-message: Build failed (check pipeline).  For information on how to proceed, see http://docs.openstack.org/infra/manual/developers.html#automated-testing
+    manager: IndependentPipelineManager
+    source: gerrit
+    precedence: normal
+    require:
+      open: True
+      current-patchset: True
+    trigger:
+      gerrit:
+        - event: patchset-created
+        - event: change-restored
+        - event: comment-added
+          comment: (?i)^(Patch Set [0-9]+:)?( [\w\\+-]*)*(\n\n)?\s*(recheck|reverify)
+        - event: comment-added
+          require-approval:
+            - verified: [-1, -2]
+              username: jenkins
+          approval:
+            - workflow: 1
+    success:
+      gerrit:
+        verified: 1
+    failure:
+      gerrit:
+        verified: 2

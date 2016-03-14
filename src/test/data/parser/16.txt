@@ -136,7 +136,7 @@ NeonFile:16.yml
             PsiElement([Yaml] ,)(',')
             PsiWhiteSpace(' ')
             PsiElement([Yaml] string)('''')
-            PsiElement([Yaml] ))(')')
+            PsiElement([Yaml] literal)(')')
           PsiWhiteSpace(' ')
           PsiElement([Yaml] }})('}}')
         PsiElement([Yaml] literal)('-devel')

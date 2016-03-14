@@ -1,0 +1,284 @@
+NeonFile:Issue31_simple.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('includes')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n  ')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('python-file')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('openstack_functions.py')
+            PsiElement([Yaml] indent)('\n')
+        PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('pipelines')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n  ')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('name')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('check')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('description')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Newly uploaded patchsets enter this pipeline to receive an initial +/-1 Verified vote from Jenkins.')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('success-message')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Build succeeded (check pipeline).')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('failure-message')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('Build failed (check pipeline).  For information on how to proceed')
+            PsiElement([Yaml] ,)(',')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] literal)('see http://docs.openstack.org/infra/manual/developers.html#automated-testing')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('manager')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('IndependentPipelineManager')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('source')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('gerrit')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('precedence')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('normal')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('require')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n      ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('open')
+              PsiElement([Yaml] :)(':')
+              PsiWhiteSpace(' ')
+              Yaml scalar
+                PsiElement([Yaml] literal)('True')
+            PsiElement([Yaml] indent)('\n      ')
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('current-patchset')
+              PsiElement([Yaml] :)(':')
+              PsiWhiteSpace(' ')
+              Yaml scalar
+                PsiElement([Yaml] literal)('True')
+            PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('trigger')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n      ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('gerrit')
+              PsiElement([Yaml] :)(':')
+              PsiElement([Yaml] indent)('\n        ')
+              Yaml array
+                NeonPsiElementImpl([Yaml] Item)
+                  PsiElement([Yaml] -)('-')
+                  PsiWhiteSpace(' ')
+                  Yaml array
+                    <empty list>
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('event')
+                  PsiElement([Yaml] :)(':')
+                  PsiWhiteSpace(' ')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('patchset-created')
+                PsiElement([Yaml] indent)('\n        ')
+                NeonPsiElementImpl([Yaml] Item)
+                  PsiElement([Yaml] -)('-')
+                  PsiWhiteSpace(' ')
+                  Yaml array
+                    <empty list>
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('event')
+                  PsiElement([Yaml] :)(':')
+                  PsiWhiteSpace(' ')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('change-restored')
+                PsiElement([Yaml] indent)('\n        ')
+                NeonPsiElementImpl([Yaml] Item)
+                  PsiElement([Yaml] -)('-')
+                  PsiWhiteSpace(' ')
+                  Yaml array
+                    <empty list>
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('event')
+                  PsiElement([Yaml] :)(':')
+                  PsiWhiteSpace(' ')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('comment-added')
+                PsiElement([Yaml] indent)('\n          ')
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('comment')
+                  PsiElement([Yaml] :)(':')
+                  PsiWhiteSpace(' ')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('(?i)^(Patch Set [0-9')
+                    PsiElement([Yaml] ])(']')
+                    PsiElement([Yaml] literal)('+')
+                    PsiElement([Yaml] :)(':')
+                    PsiElement([Yaml] literal)(')?( [\w\\+-')
+                    PsiElement([Yaml] ])(']')
+                    PsiElement([Yaml] literal)('*)*(\n\n)?\s*(recheck|reverify)')
+                PsiElement([Yaml] indent)('\n        ')
+                NeonPsiElementImpl([Yaml] Item)
+                  PsiElement([Yaml] -)('-')
+                  PsiWhiteSpace(' ')
+                  Yaml array
+                    <empty list>
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('event')
+                  PsiElement([Yaml] :)(':')
+                  PsiWhiteSpace(' ')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('comment-added')
+                PsiElement([Yaml] indent)('\n          ')
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('require-approval')
+                  PsiElement([Yaml] :)(':')
+                  PsiElement([Yaml] indent)('\n            ')
+                  Yaml array
+                    NeonPsiElementImpl([Yaml] Item)
+                      PsiElement([Yaml] -)('-')
+                      PsiWhiteSpace(' ')
+                      Yaml array
+                        <empty list>
+                    Yaml key-val pair
+                      Yaml key
+                        PsiElement([Yaml] literal)('verified')
+                      PsiElement([Yaml] :)(':')
+                      PsiWhiteSpace(' ')
+                      Yaml array
+                        PsiElement([Yaml] [)('[')
+                        Yaml scalar
+                          PsiElement([Yaml] literal)('-1')
+                        PsiElement([Yaml] ,)(',')
+                        PsiWhiteSpace(' ')
+                        Yaml scalar
+                          PsiElement([Yaml] literal)('-2')
+                        PsiElement([Yaml] ])(']')
+                    PsiElement([Yaml] indent)('\n              ')
+                    Yaml key-val pair
+                      Yaml key
+                        PsiElement([Yaml] literal)('username')
+                      PsiElement([Yaml] :)(':')
+                      PsiWhiteSpace(' ')
+                      Yaml scalar
+                        PsiElement([Yaml] literal)('jenkins')
+                    PsiElement([Yaml] indent)('\n          ')
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('approval')
+                  PsiElement([Yaml] :)(':')
+                  PsiElement([Yaml] indent)('\n            ')
+                  Yaml array
+                    NeonPsiElementImpl([Yaml] Item)
+                      PsiElement([Yaml] -)('-')
+                      PsiWhiteSpace(' ')
+                      Yaml array
+                        <empty list>
+                    Yaml key-val pair
+                      Yaml key
+                        PsiElement([Yaml] literal)('workflow')
+                      PsiElement([Yaml] :)(':')
+                      PsiWhiteSpace(' ')
+                      Yaml scalar
+                        PsiElement([Yaml] literal)('1')
+                    PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('success')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n      ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('gerrit')
+              PsiElement([Yaml] :)(':')
+              PsiElement([Yaml] indent)('\n        ')
+              Yaml array
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('verified')
+                  PsiElement([Yaml] :)(':')
+                  PsiWhiteSpace(' ')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('1')
+                PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('failure')
+          PsiElement([Yaml] :)(':')
+          PsiElement([Yaml] indent)('\n      ')
+          Yaml array
+            Yaml key-val pair
+              Yaml key
+                PsiElement([Yaml] literal)('gerrit')
+              PsiElement([Yaml] :)(':')
+              PsiElement([Yaml] indent)('\n        ')
+              Yaml array
+                Yaml key-val pair
+                  Yaml key
+                    PsiElement([Yaml] literal)('verified')
+                  PsiElement([Yaml] :)(':')
+                  PsiWhiteSpace(' ')
+                  Yaml scalar
+                    PsiElement([Yaml] literal)('2')

@@ -25,7 +25,7 @@ COMMENT = \#.*
 YAML_HEADER = ---.*
 YAML_TAG = %.*
 INDENT = \n[\t ]*
-LITERAL_START = [^#,=\[\]{}()\x00-\x20!`]
+LITERAL_START = [^#,=\[\]{}\x00-\x20!`]
 JINJA_START = "{{" | "{%"
 JINJA_STOP = "}}" | "%}"
 WHITESPACE = [\t ]+
@@ -64,8 +64,6 @@ NEWLINE = \r\n|[\r\n\u2028\u2029\u000B\u000C\u0085]
     ","   { return NEON_ITEM_DELIMITER; }
     ">" | "|" {WHITESPACE}* { return NEON_LINE_CONTINUATION; }
 
-    "(" { return NEON_LPAREN; }
-    ")" { return NEON_RPAREN; }
     "{" { return NEON_LBRACE_CURLY; }
     "}" { return NEON_RBRACE_CURLY; }
     "[" { return NEON_LBRACE_SQUARE; }

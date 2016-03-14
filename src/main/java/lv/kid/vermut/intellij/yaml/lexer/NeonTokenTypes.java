@@ -34,8 +34,6 @@ public interface NeonTokenTypes
 	IElementType NEON_LINE_CONTINUATION = new NeonTokenType(">");
 
 	// braces
-	IElementType NEON_LPAREN = new NeonTokenType("(");
-	IElementType NEON_RPAREN = new NeonTokenType(")");
 	IElementType NEON_LBRACE_CURLY = new NeonTokenType("{");
 	IElementType NEON_RBRACE_CURLY = new NeonTokenType("}");
 	IElementType NEON_LBRACE_JINJA = new NeonTokenType("{{");
@@ -61,34 +59,25 @@ public interface NeonTokenTypes
 	// special tokens (identifier in block header or as array key)
 	IElementType NEON_KEY = new NeonTokenType("key");
 
-
 	// sets
 	TokenSet WHITESPACES = TokenSet.create(NEON_WHITESPACE);
 	TokenSet COMMENTS = TokenSet.create(NEON_COMMENT);
 	TokenSet STRING_LITERALS = TokenSet.create(NEON_LITERAL, NEON_STRING);
 	TokenSet ASSIGNMENTS = TokenSet.create(NEON_ASSIGNMENT, NEON_COLON);
-	TokenSet OPEN_BRACKET = TokenSet.create(NEON_LPAREN, NEON_LBRACE_CURLY, NEON_LBRACE_SQUARE);
-	TokenSet CLOSING_BRACKET = TokenSet.create(NEON_RPAREN, NEON_RBRACE_CURLY, NEON_RBRACE_SQUARE);
-	TokenSet SYMBOLS = TokenSet.create(
-		NEON_COLON, NEON_ASSIGNMENT, NEON_ARRAY_BULLET, NEON_ITEM_DELIMITER,
-		NEON_LPAREN, NEON_RPAREN, 
-		NEON_LBRACE_CURLY, NEON_RBRACE_CURLY, 
-		NEON_LBRACE_SQUARE, NEON_RBRACE_SQUARE
-	);
+	TokenSet OPEN_BRACKET = TokenSet.create(NEON_LBRACE_CURLY, NEON_LBRACE_SQUARE);
+	TokenSet CLOSING_BRACKET = TokenSet.create(NEON_RBRACE_CURLY, NEON_RBRACE_SQUARE);
 
 	TokenSet OPEN_STRING_ALLOWED = TokenSet.create(
             NEON_COLON, NEON_ASSIGNMENT, NEON_ARRAY_BULLET,
-            NEON_LPAREN, NEON_RPAREN,
 
             NEON_WHITESPACE, NEON_LITERAL, NEON_STRING, NEON_QUOTE,
 
 			// Match brackets, as they would be inside the literal
-			NEON_LPAREN, NEON_LBRACE_CURLY, NEON_LBRACE_SQUARE
+			NEON_LBRACE_CURLY, NEON_LBRACE_SQUARE
     );
 
 	// brackets
 	public static final Map<IElementType, IElementType> closingBrackets = ImmutableMap.of(
-		NEON_LPAREN, NEON_RPAREN,
 		NEON_LBRACE_CURLY, NEON_RBRACE_CURLY,
 		NEON_LBRACE_SQUARE, NEON_RBRACE_SQUARE
 	);

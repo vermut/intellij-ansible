@@ -14,7 +14,6 @@ import org.jetbrains.annotations.Nullable;
 public class YamlBraceMatcher implements PairedBraceMatcher, NeonTokenTypes {
 	private static final BracePair[] PAIRS = {
 			new BracePair(NEON_LBRACE_JINJA, NEON_RBRACE_JINJA, true), // {{ }}
-			new BracePair(NEON_LPAREN, NEON_RPAREN, true),              // ()
 			new BracePair(NEON_LBRACE_CURLY, NEON_RBRACE_CURLY, true),  // {}
 			new BracePair(NEON_LBRACE_SQUARE, NEON_RBRACE_SQUARE, true), // []
 	};

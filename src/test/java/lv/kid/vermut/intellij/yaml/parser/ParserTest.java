@@ -123,4 +123,9 @@ public class ParserTest extends ParsingTestCase {
         doTest(true, false);
     }
 
+    @Test
+    public void testIssue31_simple() {
+        doTest(true, false);
+    }
+
 }
