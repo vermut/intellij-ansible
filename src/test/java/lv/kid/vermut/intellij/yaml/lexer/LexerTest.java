@@ -296,6 +296,11 @@ public class LexerTest extends UsefulTestCase {
         doTestFromFile();
     }
 
+    @Test
+    public void testIssue31() throws Exception {
+        doTestFromFile();
+    }
+
     public void doTestFromFile() throws Exception {
         String code = doLoadFile("src/test/data/parser", getTestName(false) + ".yml");
 
