@@ -16,6 +16,8 @@ import java.util.Stack;
 public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
     private enum IndentType {TABS, SPACES}
 
+    private enum QuotesType {NONE, SINGLE, DOUBLE}
+
     private PsiBuilder myBuilder;
     private boolean eolSeen = false;
     private int myIndent;
@@ -72,7 +74,20 @@ public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
             val.done(ARRAY);
         } else if (NeonTokenTypes.STRING_LITERALS.contains(currentToken) || currentToken == NEON_LBRACE_JINJA) {
             PsiBuilder.Marker val = mark();
-            parseScalar(indent, multiLine);
+            QuotesType quotes = QuotesType.NONE;
+
+            if (currentToken == NEON_LITERAL) {
+                String tokenText = myBuilder.getTokenText();
+                if (tokenText != null && tokenText.startsWith("'"))
+                    parseScalar(indent, multiLine, QuotesType.SINGLE);
+                else if (tokenText != null && tokenText.startsWith("\""))
+                    parseScalar(indent, multiLine, QuotesType.DOUBLE);
+
+                parseScalar(indent, multiLine, QuotesType.NONE);
+            } else {
+                parseScalar(indent, multiLine, quotes);
+            }
+
             val.done(SCALAR_VALUE);
 
         } else if (OPEN_BRACKET.contains(currentToken)) { // array
@@ -94,15 +109,6 @@ public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
 
         } else if (currentToken == NEON_INDENT) {
             // no value -> null
-
-/*        } else if (currentToken == NEON_LINE_CONTINUATION) {
-            advanceLexer();
-
-            // And skip next indent, if any
-            if (nextToken == NEON_INDENT)
-                advanceLexer();
-
-            parseValue(indent);*/
         } else {
             // dunno
             myBuilder.error("unexpected token " + currentToken);
@@ -110,14 +116,32 @@ public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
         }
     }
 
-    private void parseScalar(int indent, boolean multiLine) {
+    private void parseScalar(int indent, boolean multiLine, QuotesType quotes) {
         IElementType currentToken = myBuilder.getTokenType();
-        IElementType nextToken = myBuilder.lookAhead(1);
+        // IElementType nextToken = myBuilder.lookAhead(1);
 
         if (NeonTokenTypes.STRING_LITERALS.contains(currentToken)) {
-            // Continue scalar
-            advanceLexerOnAllowedTokens(OPEN_STRING_ALLOWED);
-            parseScalar(indent, multiLine);
+            if (quotes != QuotesType.NONE && myBuilder.getTokenText() != null) {
+                // Need to terminate when closing quote is found
+
+                if (quotes == QuotesType.SINGLE &&
+                        !myBuilder.getTokenText().endsWith("''") &&
+                        myBuilder.getTokenText().endsWith("'")) {
+                    advanceLexer();
+                    return;
+                }
+
+                if (quotes == QuotesType.DOUBLE &&
+                        !myBuilder.getTokenText().endsWith("\\\"") &&
+                        myBuilder.getTokenText().endsWith("\"")) {
+                    advanceLexer();
+                    return;
+                }
+                advanceLexer();
+            } else
+                advanceLexerOnAllowedTokens(OPEN_STRING_ALLOWED);
+
+            parseScalar(indent, multiLine, quotes);
 
         } else if (currentToken == NEON_LBRACE_JINJA) { // Jinja code
             myInline++;
@@ -134,23 +158,27 @@ public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
             valJinja.done(JINJA);
             myInline--;
 
-            parseScalar(indent, multiLine);
+            parseScalar(indent, multiLine, quotes);
 
         } else if (multiLine && currentToken == NEON_INDENT) {
             if (myBuilder.getTokenText() != null && myBuilder.getTokenText().length() >= indent) {
                 // Legitimate continuation, skip indent and continue
                 advanceLexer();
-                parseScalar(indent, multiLine);
+                parseScalar(indent, multiLine, quotes);
             }
         } else if (CLOSING_BRACKET.contains(currentToken) && (expectedClosings.empty() || currentToken != expectedClosings.peek())) {
             // Eat closing brackets when they are not expected
             advanceLexer();
-            parseScalar(indent, multiLine);
-        }
-        else if (expectedClosings.empty() && currentToken == NEON_ITEM_DELIMITER) {
+            parseScalar(indent, multiLine, quotes);
+        } else if (expectedClosings.empty() && currentToken == NEON_ITEM_DELIMITER) {
             // Eat commas when we are not in array (ugly detected by absence of expectedClosings)
             advanceLexer();
-            parseScalar(indent, multiLine);
+            parseScalar(indent, multiLine, quotes);
+        } else if (quotes != QuotesType.NONE) {
+            // We only can end quoted literal on another quote
+
+            advanceLexer();
+            parseScalar(indent, multiLine, quotes);
         }
     }
 

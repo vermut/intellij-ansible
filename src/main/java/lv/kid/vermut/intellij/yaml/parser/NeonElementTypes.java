@@ -9,30 +9,20 @@ import lv.kid.vermut.intellij.yaml.lexer.NeonTokenTypes;
  * Types of elements returned from parser
  */
 public interface NeonElementTypes {
-    public static final IFileElementType FILE = new IFileElementType(YamlLanguage.INSTANCE);
+    IFileElementType FILE = new IFileElementType(YamlLanguage.INSTANCE);
 
-    public static final NeonElementType KEY_VALUE_PAIR = new NeonElementType("Key value pair");
-    public static final NeonElementType KEY = new NeonElementType("Key");
-    public static final NeonElementType COMPOUND_KEY = new NeonElementType("Compound key");
-    public static final NeonElementType HASH = new NeonElementType("Hash");
-    public static final NeonElementType ITEM = new NeonElementType("Item");
-    public static final NeonElementType ENTITY = new NeonElementType("Entity");
-    public static final NeonElementType JINJA = new NeonElementType("Jinja2");
+    NeonElementType KEY_VALUE_PAIR = new NeonElementType("Key value pair");
+    NeonElementType KEY = new NeonElementType("Key");
+    NeonElementType COMPOUND_KEY = new NeonElementType("Compound key");
+    NeonElementType HASH = new NeonElementType("Hash");
+    NeonElementType ITEM = new NeonElementType("Item");
+    NeonElementType ENTITY = new NeonElementType("Entity");
+    NeonElementType JINJA = new NeonElementType("Jinja2");
 
-    public static final NeonElementType ARRAY = new NeonElementType("Array");
-    public static final NeonElementType ARGS = new NeonElementType("Args");
-    public static final NeonElementType SEQUENCE = new NeonElementType("Sequence");
-    public static final NeonElementType COMPOUND_VALUE = new NeonElementType("Compound value");
-    public static final NeonElementType SCALAR_VALUE = new NeonElementType("Scalar value");
-    public static final NeonElementType REFERENCE = new NeonElementType("Reference");
-
-    public static final TokenSet SCALAR_VALUES = TokenSet.create(
-            NeonTokenTypes.NEON_STRING,
-            NeonTokenTypes.NEON_NUMBER,
-            NeonTokenTypes.NEON_REFERENCE,
-            NeonTokenTypes.NEON_IDENTIFIER,
-            NeonTokenTypes.NEON_LITERAL,
-            NeonTokenTypes.NEON_VARIABLE,
-            NeonTokenTypes.NEON_DOUBLE_COLON, NeonTokenTypes.NEON_DOLLAR, NeonTokenTypes.NEON_AT
-    );
+    NeonElementType ARRAY = new NeonElementType("Array");
+    NeonElementType ARGS = new NeonElementType("Args");
+    NeonElementType SEQUENCE = new NeonElementType("Sequence");
+    NeonElementType COMPOUND_VALUE = new NeonElementType("Compound value");
+    NeonElementType SCALAR_VALUE = new NeonElementType("Scalar value");
+    NeonElementType REFERENCE = new NeonElementType("Reference");
 }

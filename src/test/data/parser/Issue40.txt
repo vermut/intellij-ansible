@@ -1,0 +1,166 @@
+NeonFile:Issue40.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('literal')
+      PsiElement([Yaml] :)(':')
+      PsiWhiteSpace(' ')
+      Yaml scalar
+        PsiElement([Yaml] literal)('gate-')
+        PsiElement([Yaml] {)('{')
+        PsiElement([Yaml] literal)('name')
+        PsiElement([Yaml] })('}')
+        PsiElement([Yaml] literal)('-tox-checklinks')
+    PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('jinjaVal')
+      PsiElement([Yaml] :)(':')
+      PsiWhiteSpace(' ')
+      Yaml scalar
+        PsiElement([Yaml] literal)('"')
+        Yaml Jinja2
+          PsiElement([Yaml] {{)('{{')
+          NeonReferenceImpl([Yaml] Reference)
+            PsiElement([Yaml] literal)('var')
+          PsiElement([Yaml] }})('}}')
+        PsiElement([Yaml] literal)('"')
+    PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('jinjaAssign')
+      PsiElement([Yaml] :)(':')
+      PsiWhiteSpace(' ')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('name')
+          PsiElement([Yaml] =)('=')
+          Yaml scalar
+            Yaml Jinja2
+              PsiElement([Yaml] {{)('{{')
+              NeonReferenceImpl([Yaml] Reference)
+                PsiElement([Yaml] literal)('stash_user')
+              PsiElement([Yaml] }})('}}')
+    PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('logFormat')
+      PsiElement([Yaml] :)(':')
+      PsiWhiteSpace(' ')
+      Yaml scalar
+        PsiElement([Yaml] literal)('"%-5p [%d')
+        PsiElement([Yaml] {)('{')
+        PsiElement([Yaml] literal)('ISO8601')
+        PsiElement([Yaml] ,)(',')
+        PsiElement([Yaml] literal)('UTC')
+        PsiElement([Yaml] })('}')
+        PsiElement([Yaml] ])(']')
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] [)('[')
+        PsiElement([Yaml] literal)('%thread')
+        PsiElement([Yaml] ])(']')
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] literal)('%c')
+        PsiElement([Yaml] :)(':')
+        PsiWhiteSpace(' ')
+        PsiElement([Yaml] literal)('%X %m%n%rEx"')
+    PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('quoted')
+      PsiElement([Yaml] :)(':')
+      PsiWhiteSpace(' ')
+      Yaml scalar
+        PsiElement([Yaml] string)(''gate-{name}-tox-checklinks'')
+    PsiElement([Yaml] indent)('\n')
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('corner-cases')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n  ')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('''')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('""')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)(''"'')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('"'"')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('" \""')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('''')
+            PsiElement([Yaml] string)('''')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)(''a'')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('' a '')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('' a'')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)(''a '')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('"a"')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('" a "')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('" a"')
+        PsiElement([Yaml] indent)('\n  ')
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] string)('"a "')

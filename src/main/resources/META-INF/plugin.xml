@@ -17,11 +17,12 @@
         ]]></description>
     <change-notes>
         <![CDATA[
+        <p>Changes 0.9.2: improved quoted parsing</p>
         <p>Changes 0.9.1: rebuilt with Java6</p>
         <p>Changes 0.9.0: fixed multiline: | <br>notation</p>
         ]]>
     </change-notes>
-    <version>0.9.1</version>
+    <version>0.9.2</version>
     <vendor url="https://github.com/vermut/intellij-ansible" email="vermut@kid.lv">Pavel Veretennikov</vendor>
     <idea-version since-build="111.0"/>
     <depends>com.intellij.modules.lang</depends>
