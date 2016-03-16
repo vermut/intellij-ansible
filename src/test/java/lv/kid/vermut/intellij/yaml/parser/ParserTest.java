@@ -3,7 +3,6 @@ package lv.kid.vermut.intellij.yaml.parser;
 import com.intellij.testFramework.ParsingTestCase;
 import com.intellij.testFramework.PlatformTestCase;
 import org.junit.Assert;
-import org.junit.Test;
 
 public class ParserTest extends ParsingTestCase {
 
@@ -108,6 +107,10 @@ public class ParserTest extends ParsingTestCase {
     }
 
     public void testIssue40() {
+        doTest(true, false);
+    }
+
+    public void testIssue42() {
         doTest(true, false);
     }
 

@@ -49,14 +49,14 @@ public interface NeonTokenTypes
 	// sets
 	TokenSet WHITESPACES = TokenSet.create(NEON_WHITESPACE);
 	TokenSet COMMENTS = TokenSet.create(NEON_COMMENT);
-	TokenSet STRING_LITERALS = TokenSet.create(NEON_LITERAL, NEON_STRING);
+	TokenSet STRING_LITERALS = TokenSet.create(NEON_LITERAL, NEON_STRING, NEON_TAG);
 	TokenSet ASSIGNMENTS = TokenSet.create(NEON_ASSIGNMENT, NEON_COLON);
 	TokenSet OPEN_BRACKET = TokenSet.create(NEON_LBRACE_CURLY, NEON_LBRACE_SQUARE);
 	TokenSet CLOSING_BRACKET = TokenSet.create(NEON_RBRACE_CURLY, NEON_RBRACE_SQUARE);
 
 	TokenSet OPEN_STRING_ALLOWED = TokenSet.create(
             NEON_COLON, NEON_ASSIGNMENT, NEON_ARRAY_BULLET,
-            NEON_WHITESPACE, NEON_LITERAL, NEON_STRING,
+			NEON_WHITESPACE, NEON_LITERAL, NEON_STRING, NEON_TAG,
 
 			// Match brackets, as they would be inside the literal
 			NEON_LBRACE_CURLY, NEON_LBRACE_SQUARE

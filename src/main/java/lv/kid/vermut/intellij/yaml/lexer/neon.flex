@@ -57,6 +57,10 @@ NEWLINE = \r\n|[\r\n\u2028\u2029\u000B\u000C\u0085]
         return NEON_HEADER;
     }
 
+    "!"{Identifier} {
+            return NEON_TAG;
+    }
+
     "-" / [ \t\n] { return NEON_ARRAY_BULLET; }
     "-" $ { return NEON_ARRAY_BULLET; }
     ":" / [ \t\n,\]})] { return NEON_COLON; }

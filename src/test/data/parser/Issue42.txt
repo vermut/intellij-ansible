@@ -1,0 +1,32 @@
+NeonFile:Issue42.yml
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('provisioner')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n    ')
+      Yaml array
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('type')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('manual')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('key_file')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] tag)('!env')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] [)('[')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] literal)('KEY_FILE')
+            PsiElement([Yaml] ,)(',')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] literal)('~/.ssh/id_rsa')
+            PsiWhiteSpace(' ')
+            PsiElement([Yaml] ])(']')
