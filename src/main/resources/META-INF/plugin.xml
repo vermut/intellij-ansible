@@ -1,4 +1,5 @@
 <idea-plugin version="2">
+    <id>lv.kid.vermut.intellij.ansible</id>
     <!-- Plugin info -->
     <name>YAML/Ansible support</name>
     <description><![CDATA[
@@ -26,6 +27,7 @@
     <vendor url="https://github.com/vermut/intellij-ansible" email="vermut@kid.lv">Pavel Veretennikov</vendor>
     <idea-version since-build="111.0"/>
     <depends>com.intellij.modules.lang</depends>
+    <depends>lv.kid.vermut.intellij.pgp</depends>
 
     <!-- IDEA extensions -->
     <extensions defaultExtensionNs="com.intellij">

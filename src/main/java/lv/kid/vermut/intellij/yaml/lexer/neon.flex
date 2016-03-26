@@ -137,6 +137,7 @@ ANSIBLE_VAULT_HEADER = \$ANSIBLE_VAULT
 }
 
 <ANSIBLE_VAULT_FILE> {
-    .           {}
-    <<EOF>>     { return PgpToken.INSTANCE; }
+    .*          {  a=611; }
+    \n          {  a=612; }
+    <<EOF>>     {  retryInState(YYINITIAL); return PgpToken.INSTANCE; }
 }

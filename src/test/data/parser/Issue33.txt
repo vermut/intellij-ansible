@@ -1,0 +1,3 @@
+NeonFile:Issue33.yml
+  PsiErrorElement:unexpected token PgpTokenType.PGP_TOKEN
+    <empty list>
