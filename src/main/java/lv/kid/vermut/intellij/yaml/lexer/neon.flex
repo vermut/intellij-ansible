@@ -3,6 +3,7 @@ package lv.kid.vermut.intellij.yaml.lexer;
 import com.intellij.lexer.FlexLexer;
 import com.intellij.psi.tree.IElementType;
 import static lv.kid.vermut.intellij.yaml.lexer.NeonTokenTypes.*;
+import lv.kid.vermut.intellij.pgp.PgpToken;
 %%
 %class _NeonLexer
 %implements FlexLexer
@@ -31,13 +32,17 @@ JINJA_STOP = "}}" | "%}"
 WHITESPACE = [\t ]+
 Identifier = [:jletter:] [:jletterdigit:]*
 NEWLINE = \r\n|[\r\n\u2028\u2029\u000B\u000C\u0085]
+ANSIBLE_VAULT_HEADER = \$ANSIBLE_VAULT
 
 %state IN_LITERAL
 %state IN_ASSIGNMENT
 %state IN_ASSIGNMENT_LITERAL
+%state ANSIBLE_VAULT_FILE
 %%
 
 <YYINITIAL> {
+    {ANSIBLE_VAULT_HEADER}  { retryInState(ANSIBLE_VAULT_FILE); }
+
     {JINJA_START}    {  a=111;return NEON_LBRACE_JINJA;    }
     {JINJA_STOP}     {  a=112;return NEON_RBRACE_JINJA;    }
 
@@ -129,4 +134,9 @@ NEWLINE = \r\n|[\r\n\u2028\u2029\u000B\u000C\u0085]
     }
 
     .|\n { a=406;retryInState(YYINITIAL); }
+}
+
+<ANSIBLE_VAULT_FILE> {
+    .           {}
+    <<EOF>>     { return PgpToken.INSTANCE; }
 }
