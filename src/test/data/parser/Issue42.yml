@@ -1,3 +1,4 @@
 provisioner:
     type: manual
     key_file: !env [ KEY_FILE, ~/.ssh/id_rsa ]
+    base_url: !lookup distro.images[ !lookup distro.name ][ !lookup distro.full_version ].remote_file_server
