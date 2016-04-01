@@ -117,6 +117,10 @@ public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
     }
 
     private void parseScalar(int indent, boolean multiLine, QuotesType quotes) {
+        // Avoid loop on eof
+        if (myBuilder.eof())
+            return;
+
         IElementType currentToken = myBuilder.getTokenType();
         // IElementType nextToken = myBuilder.lookAhead(1);
 

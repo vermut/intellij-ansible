@@ -1,0 +1,30 @@
+NeonFile:Issue41.yml
+  PsiElement([Yaml] header)('---')
+  PsiElement([Yaml] indent)('\n')
+  Yaml array
+    Yaml key-val pair
+      Yaml key
+        PsiElement([Yaml] literal)('dependencies')
+      PsiElement([Yaml] :)(':')
+      PsiElement([Yaml] indent)('\n  ')
+      Yaml array
+        NeonPsiElementImpl([Yaml] Item)
+          PsiElement([Yaml] -)('-')
+          PsiWhiteSpace(' ')
+          Yaml array
+            <empty list>
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('role')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('foo')
+        PsiElement([Yaml] indent)('\n    ')
+        Yaml key-val pair
+          Yaml key
+            PsiElement([Yaml] literal)('when')
+          PsiElement([Yaml] :)(':')
+          PsiWhiteSpace(' ')
+          Yaml scalar
+            PsiElement([Yaml] literal)('"foo ==')
