@@ -206,7 +206,10 @@ public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
                 parseValue(indent, false);
 
             } else {
-                myBuilder.error("expected key-val pair or array item");
+                // Don't mark YAML document stream separators as errors!
+                if (currentToken != NEON_HEADER) {
+                    myBuilder.error("expected key-val pair or array item");
+                }
                 advanceLexer();
 
             }
@@ -225,7 +228,10 @@ public class NeonParser implements PsiParser, NeonTokenTypes, NeonElementTypes {
             if (ASSIGNMENTS.contains(nextToken)) { // key-val pair
                 parseKeyVal(indent);
             } else {
-                myBuilder.error("expected key-val pair or array item");
+                // Don't mark YAML document stream separators as errors!
+                if (currentToken != NEON_HEADER) {
+                    myBuilder.error("expected key-val pair or array item");
+                }
                 advanceLexer();
             }
         }
