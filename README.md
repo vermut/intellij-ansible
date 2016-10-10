@@ -1,6 +1,6 @@
 # YAML/Ansible in IntelliJ IDEA
 
-**Current status: stable, basic functions, supports only basic YAMK, not in active development**
+**Current status: stable, basic functions, supports only basic YAML, not in active development**
 
 
 <img src="src/test/data/image/Goto_Class.png" /><br>
