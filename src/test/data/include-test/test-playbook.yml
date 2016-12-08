@@ -1,0 +1,17 @@
+# this one is in a subfolder and does not work
+- name: Subfolder include
+  include: include/other-include-file.yml
+
+# this one contains the line-break and does not work
+- name: Sibling include
+  include: include-file.yml
+
+# this one includes the comment below as part of the file reference
+- name: Sibling include with comment
+  include: include-file.yml
+
+#####################
+# this is a comment accidently mistaken as part of the file reference above
+
+# this one is the only one that works
+- include: include-file.yml

@@ -20,6 +20,9 @@ public class AnsibleFileReference extends PsiReferenceBase<PsiElement> implement
     public AnsibleFileReference(PsiElement element, TextRange rangeInElement) {
         super(element, rangeInElement);
         key = element.getText(); // .substring(rangeInElement.getStartOffset(), rangeInElement.getEndOffset());
+        // QUICK-HACK to fix the key containing linebreaks and comments - better would be to fix the parser/lexer
+        String stripped = key.replaceAll("(?m)(#.*$|\\s*$)\\n","");
+        key = stripped;
     }
 
     @NotNull
@@ -38,7 +41,29 @@ public class AnsibleFileReference extends PsiReferenceBase<PsiElement> implement
     @Override
     public PsiElement resolve() {
         ResolveResult[] resolveResults = multiResolve(false);
-        return resolveResults.length == 1 ? resolveResults[0].getElement() : null;
+        return resolveResults.length == 1 ? resolveResults[0].getElement() : guessBestMatch(resolveResults);
+    }
+
+    // HACK to return files in the same module as best match
+    @Nullable
+    private PsiElement guessBestMatch(ResolveResult[] resolveResults)
+    {
+        String parentPath = getElement().getContainingFile().getParent().getVirtualFile().getCanonicalPath();
+        PsiElement bestMatch = null;
+        for (ResolveResult resolveResult : resolveResults)
+        {
+            if(resolveResult.getElement().getContainingFile().getVirtualFile().getCanonicalPath().startsWith(parentPath))
+            {
+                // make sure we only return a bestMatch, if there is only one!
+                if (bestMatch != null)
+                {
+                    bestMatch = null;
+                    break;
+                }
+                bestMatch = resolveResult.getElement();
+            }
+        }
+        return bestMatch;
     }
 
     @NotNull
