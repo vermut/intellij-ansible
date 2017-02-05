@@ -41,6 +41,7 @@
 
 If you prefer your own build from *master*, open this project in *IntelliJ IDEA* as a *Plugin project*, go to *Build* -> *Prepare for deployment* and install it in your Idea.
 
+**Note:** the plugin features may not work in IntelliJ 2016 if the `YAML support` plugin is also active. This will be fixed in future versions. See [the related github issue](https://github.com/vermut/intellij-ansible/issues/67).
 
 ## Development
 This plugin is in its early development phase, it's not complete at all and it will contain many bugs!
