@@ -103,8 +103,7 @@ public class AnsibleUtil {
                 Collection<NeonKeyValPair> properties = PsiTreeUtil.findChildrenOfType(yamlFile, NeonKeyValPair.class);
                 if (!properties.isEmpty()) {
                     if (key == null) {
-                        for (NeonKeyValPair property : properties)
-                            result.add(property);
+                        result.addAll(properties);
                     } else {
                         for (NeonKeyValPair property : properties) {
                             if (key.equals(property.getKeyText())) {

@@ -62,7 +62,7 @@ public class AnsibleFindUsagesProvider implements FindUsagesProvider {
     @Override
     public String getNodeText(@NotNull PsiElement element, boolean useFullName) {
         if (element instanceof NeonKey) {
-            return ((NeonKey) element).getParent().getText();
+            return element.getParent().getText();
         } else {
             return "hosts";
         }

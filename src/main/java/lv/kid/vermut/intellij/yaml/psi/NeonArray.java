@@ -12,26 +12,26 @@ public interface NeonArray extends NeonValue {
 	/**
 	 * Is it a list-like array? i.e. keys are only numeric
 	 */
-	public boolean isList();
+    boolean isList();
 
 	/**
 	 * Is it hash-map-like array? I.e. keys are not-numeric
 	 */
-	public boolean isHashMap();
+    boolean isHashMap();
 
 	/**
 	 * Get all item values (ignore keys)
 	 */
-	public List<NeonValue> getValues();
+    List<NeonValue> getValues();
 
 	/**
 	 * Get keys as nodes
 	 */
-	public List<NeonKey> getKeys();
+    List<NeonKey> getKeys();
 
 	/**
 	 * Get all values as a hash-map
 	 */
-	public HashMap<String, NeonValue> getMap();
+    HashMap<String, NeonValue> getMap();
 
 }

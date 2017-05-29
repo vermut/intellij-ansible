@@ -7,10 +7,10 @@ import com.intellij.psi.PsiNamedElement;
  */
 public interface NeonKeyValPair extends PsiNamedElement {
 	// key
-	public NeonKey getKey();
-	public String getKeyText();
+    NeonKey getKey();
+	String getKeyText();
 
 	// value
-	public NeonValue getValue();
-	public String getValueText();
+    NeonValue getValue();
+	String getValueText();
 }
