@@ -35,9 +35,10 @@ public class AnsibleUtil {
         }
         return result;
     }
+
     public static List<PsiFile> findRoles(Project project, String key) {
         // Need to find also variants like role/subrole/tasks/main.yml
-        return findFiles(project, "/" + key + ".*/tasks/main.yml$" );
+        return findFiles(project, "/" + key + ".*/tasks/main.yml$");
     }
 
     public static List<NeonKeyValPair> findAllProperties(Project project) {
@@ -81,7 +82,8 @@ public class AnsibleUtil {
             virtualFiles = FileBasedIndex.getInstance().getContainingFiles(FileTypeIndex.NAME, FileTypes.PLAIN_TEXT,
                     GlobalSearchScope.allScope(project));
             for (VirtualFile virtualFile : virtualFiles) {
-                if (virtualFile.getCanonicalPath().matches(".*" + pattern))
+                if (virtualFile.getCanonicalPath() != null &&
+                        virtualFile.getCanonicalPath().matches(".*" + pattern))
                     result.add(PsiManager.getInstance(project).findFile(virtualFile));
             }
         } catch (PatternSyntaxException ignored) {
