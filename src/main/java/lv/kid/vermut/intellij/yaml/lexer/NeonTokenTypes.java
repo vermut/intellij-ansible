@@ -63,7 +63,7 @@ public interface NeonTokenTypes
     );
 
 	// brackets
-	public static final Map<IElementType, IElementType> closingBrackets = ImmutableMap.of(
+    Map<IElementType, IElementType> closingBrackets = ImmutableMap.of(
 		NEON_LBRACE_CURLY, NEON_RBRACE_CURLY,
 		NEON_LBRACE_SQUARE, NEON_RBRACE_SQUARE
 	);

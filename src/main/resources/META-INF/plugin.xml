@@ -1,4 +1,4 @@
-<idea-plugin version="2">
+<idea-plugin>
     <!-- Plugin info -->
     <name>YAML/Ansible support</name>
     <description><![CDATA[
