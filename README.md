@@ -29,6 +29,16 @@
 2. Select *Plugins* on the left
 3. Install from disk file...
 
+## Configuration to enable the plugin
+
+If the plugin doesn't look like it is working, it's probably because it reads the .yml, .yaml as `YAML`files, not as `YAML/Ansible`. To enable it do as follows :
+
+1. Go to XXStorm → Preferences
+2. Click on Editor → File Types → YAML/Ansible
+3. Add the patterns `*.yaml` and `*.yml`. It will tell you that they are already used, that's right, by `YAML`, so select `Overwrite` (or something like that)
+
+![alt tag](https://image.noelshack.com/fichiers/2017/10/1489001038-capture-d-ecran-2017-03-08-a-20-19-49.png)
+
 
 **Stable version** (not-crashing alpha) is available in official plugin repository:
 
