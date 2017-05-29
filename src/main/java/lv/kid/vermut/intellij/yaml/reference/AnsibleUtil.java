@@ -74,7 +74,8 @@ public class AnsibleUtil {
             Collection<VirtualFile> virtualFiles = FileBasedIndex.getInstance().getContainingFiles(FileTypeIndex.NAME, YamlFileType.INSTANCE,
                     GlobalSearchScope.allScope(project));
             for (VirtualFile virtualFile : virtualFiles) {
-                if (virtualFile.getCanonicalPath().matches(".*" + pattern))
+                if (virtualFile.getCanonicalPath() != null &&
+                        virtualFile.getCanonicalPath().matches(".*" + pattern))
                     result.add(PsiManager.getInstance(project).findFile(virtualFile));
             }
 
