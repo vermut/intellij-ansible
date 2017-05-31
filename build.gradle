@@ -1,0 +1,43 @@
+import org.gradle.internal.jvm.Jvm
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id "org.jetbrains.intellij" version "0.2.11"
+}
+
+apply plugin: 'idea'
+apply plugin: 'org.jetbrains.intellij'
+apply plugin: 'java'
+sourceCompatibility = 1.6
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.12'
+}
+
+intellij {
+    pluginName 'intellij-ansible'
+    updateSinceUntilBuild false
+    type "IC"
+    version '14.1.2'
+}
+
+group 'lv.kid.vermut.intellij'
+version = '0.9.5'
+
+patchPluginXml {
+    version project['version']
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile files(Jvm.current().toolsJar)
+}
