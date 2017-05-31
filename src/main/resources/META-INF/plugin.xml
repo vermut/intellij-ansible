@@ -25,7 +25,6 @@
         <p>Changes 0.9.0: fixed multiline: | <br>notation</p>
         ]]>
     </change-notes>
-    <version>0.9.4</version>
     <vendor url="https://github.com/vermut/intellij-ansible" email="vermut@kid.lv">Pavel Veretennikov</vendor>
     <idea-version since-build="141.713"/>
     <depends>com.intellij.modules.lang</depends>

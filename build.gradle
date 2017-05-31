@@ -33,6 +33,10 @@ patchPluginXml {
     version project['version']
 }
 
+publishPlugin {
+    apply from: "jetbrains.account"
+}
+
 repositories {
     mavenCentral()
 }
@@ -40,4 +44,11 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile files(Jvm.current().toolsJar)
+}
+
+// To make IDEA classes available in editor
+configurations {
+    compile {
+        extendsFrom configurations.idea
+    }
 }
