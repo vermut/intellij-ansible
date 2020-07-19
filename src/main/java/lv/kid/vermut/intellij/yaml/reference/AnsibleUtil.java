@@ -28,7 +28,7 @@ public class AnsibleUtil {
 
     public static List<String> findRoleNames(Project project, String key) {
         List<String> result = new ArrayList<String>();
-        Collection<PsiFile> virtualFiles = findFiles(project, "/" + key + "/tasks/main.yml$");
+        Collection<PsiFile> virtualFiles = findFiles(project, "/" + key + "/tasks/main.ya?ml$");
         for (PsiFile virtualFile : virtualFiles) {
             result.add(virtualFile.getParent().getParent().getName());
             result.add(virtualFile.getParent().getParent().getParent().getName());
@@ -37,8 +37,8 @@ public class AnsibleUtil {
     }
 
     public static List<PsiFile> findRoles(Project project, String key) {
-        // Need to find also variants like role/subrole/tasks/main.yml
-        return findFiles(project, "/" + key + ".*/tasks/main.yml$");
+        // Need to find also variants like role/subrole/tasks/main.ya?ml
+        return findFiles(project, "/" + key + ".*/tasks/main.ya?ml$");
     }
 
     public static List<NeonKeyValPair> findAllProperties(Project project) {
