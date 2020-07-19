@@ -17,6 +17,7 @@
         ]]></description>
     <change-notes>
         <![CDATA[
+        <p>Changes 0.10.0: Recompiled and updated to support latest IDEs</p>
         <p>Changes 0.9.5: Fixed few NPE's and network access assertion error</p>
         <p>Changes 0.9.4: Lexer: fixed EAP compatibility (backported from juzna/Neon)</p>
         <p>Changes 0.9.3: fixes crash parsing unfinished quoted scalars</p>
@@ -25,8 +26,8 @@
         <p>Changes 0.9.0: fixed multiline: | <br>notation</p>
         ]]>
     </change-notes>
-    <vendor url="https://github.com/vermut/intellij-ansible" email="vermut@kid.lv">Pavel Veretennikov</vendor>
-    <idea-version since-build="141.713"/>
+    <vendor url="https://github.com/vermut/intellij-ansible" email="vermut@pm.me">Pavels Veretennikovs</vendor>
+    <idea-version since-build="191"/>
     <depends>com.intellij.modules.lang</depends>
 
     <!-- IDEA extensions -->

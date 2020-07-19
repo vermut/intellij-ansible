@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="intellij-ansible:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="lv.kid.vermut.intellij" external.system.module.type="sourceSet" external.system.module.version="0.10.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.jdks/corretto-1.8.0_262/lib/tools.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: com.jetbrains:ideaIC:2019.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/FastInfoset-1.2.15.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aapt-proto-jarjar.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-api-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-connector-basic-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-dependency-resolver.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-impl-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-spi-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-transport-file-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-transport-http-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/aether-util-1.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/asm-5.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/asm-all-7.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/asm-analysis-5.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/asm-tree-5.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/automaton-1.12-1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/baksmali-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/batik-all-1.10.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/bcprov-jdk15on-1.60.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/bootstrap.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/cglib-nodep-3.2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/cli-parser-1.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/common-image-3.4.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/common-io-3.4.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/common-lang-3.4.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-codec-1.10.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-collections-3.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-compress-1.18.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-httpclient-3.1-patched.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-imaging-1.0-RC-1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-io-2.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-lang-2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-lang3-3.4.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-logging-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/commons-net-3.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/cucumber-core-1.2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/cucumber-java-1.2.5.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/debugger-memory-agent-0.0.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/delight-rhino-sandbox-0.0.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/dexlib2-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/ecj-4.10.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/eddsa-0.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/error_prone_annotations-2.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/extensions.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/external-system-impl.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/external-system-rt.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/fluent-hc-4.5.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/forms-1.1-preview.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/forms_rt.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/fst-2.57.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/gherkin-2.12.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/groovy-all-2.4.15.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/gson-2.8.5.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/guava-25.1-jre.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/hamcrest-core-1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/httpclient-4.5.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/httpcore-4.4.10.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/httpmime-4.5.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/icons.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/idea.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/idea_rt.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/imageio-core-3.4.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/imageio-metadata-3.4.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/imageio-tiff-3.4.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/imgscalr-lib-4.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/ini4j-0.5.5-2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/intellij-coverage-agent-1.0.495.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/intellij-test-discovery-agent-1.0.495.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/isorelax-20030108.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/istack-commons-runtime-3.0.7.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jackson-annotations-2.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jackson-core-2.9.7.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jackson-databind-2.9.7.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/java-api.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/java-compatibility-1.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/java-impl.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/java_resources_en.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/javac2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/javahelp-2.0.02.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/javassist-3.22.0-GA.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/javax.activation-1.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/javax.annotation-api-1.3.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jaxb-api-2.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jaxb-runtime-2.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jaxen-1.1.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jbcrypt-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jcip-annotations-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jdkAnnotations.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jdom.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jediterm-pty-2.14.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jetCheck-0.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jgoodies-common-1.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jing-20030619.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jna.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jna-platform.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jps-builders.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jps-builders-6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jps-launcher.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jps-model.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jsch-0.1.55.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jshell-frontend.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jshell-protocol.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jsoup-1.11.3.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/jsr305.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/junit-4.12.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlin-reflect-1.3.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlin-stdlib-1.3.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlin-stdlib-common-1.3.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlin-stdlib-jdk7-1.3.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlin-stdlib-jdk8-1.3.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlin-test-1.3.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlin-test-common-1.3.11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlinx-coroutines-core-1.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlinx-coroutines-core-common-1.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/kotlinx-coroutines-jdk8-1.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/libthrift-0.11.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/log4j.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/lz4-1.3.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/markdownj-core-0.4.2-SNAPSHOT.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/maven-aether-provider-3.3.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/maven-artifact-3.3.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/maven-builder-support-3.3.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/maven-model-3.3.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/maven-model-builder-3.3.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/maven-repository-metadata-3.3.9.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/microba.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/miglayout-core-5.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/miglayout-swing-5.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/nanoxml-2.2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/nekohtml-1.9.22.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/netty-buffer-4.1.32.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/netty-codec-4.1.32.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/netty-codec-http-4.1.32.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/netty-common-4.1.32.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/netty-handler-4.1.32.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/netty-resolver-4.1.32.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/netty-transport-4.1.32.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/objenesis-2.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/openapi.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/oro-2.0.8.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/picocontainer-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/platform-api.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/platform-impl.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/plexus-component-annotations-1.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/plexus-interpolation-1.21.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/plexus-utils-3.0.22.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/protobuf-java-3.5.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/proxy-vole-1.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/pty4j-0.9.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/purejavacomm-0.0.11.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/resources.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/resources_en.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/rhino-1.7.10.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/rngom-20051226-patched.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/sa-jdwp-1.12.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/serviceMessages.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/slf4j-api-1.7.25.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/slf4j-log4j12-1.7.25.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/snakeyaml-1.23.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/sqlite-jdbc-3.21.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/stax-api-1.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/stax-ex-1.8.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/streamex-0.6.7.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/swingx-core-1.6.2-2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/trang-core.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/trilead-ssh2-build-217-jenkins-11.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/trove4j.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/txw2-2.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/util.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/util-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/velocity-1.7.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/wadl-core.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/winp-1.28.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xercesImpl-2.12.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xml-apis-ext-1.3.04.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xml-resolver-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xmlbeans-2.6.0.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xmlgraphics-commons-2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xmlpull-1.1.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xmlrpc-2.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xpp3_min-1.1.4c.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xstream-1.4.10.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/b0bd766fbab61007aefe7922895a1726afe11b14/ideaIC-2019.1/lib/xz-1.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.1/a2c781ea46fb47d00ee87bfe0d9e43283928657f/ideaIC-2019.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:19.0.0" level="project" />
+  </component>
+</module>
