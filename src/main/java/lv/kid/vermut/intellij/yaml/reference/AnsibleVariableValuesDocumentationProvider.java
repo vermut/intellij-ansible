@@ -38,12 +38,12 @@ public class AnsibleVariableValuesDocumentationProvider extends AbstractDocument
 
         // Try documentation lookup for key
         if (psiElement(NeonKeyValPair.class).accepts(originalElement)) {
-            String url = MessageFormat.format("http://docs.ansible.com/{0}_module.html", ((NeonKeyValPair) originalElement).getKeyText());
+            String url = MessageFormat.format("https://docs.ansible.com/ansible/latest/modules/{0}_module.html", ((NeonKeyValPair) originalElement).getKeyText());
             try {
                 String pageData = new Scanner(new URL(url).openStream(), "UTF-8").useDelimiter("\\A").next();
-                return pageData.substring(pageData.indexOf("<div id=\"page-content\">"));
+                return pageData.substring(pageData.indexOf("<div role=\"main\""));
             } catch (IOException e) {
-                return null;
+                return "No documentation found at " + url;
             }
         }
         return null;
