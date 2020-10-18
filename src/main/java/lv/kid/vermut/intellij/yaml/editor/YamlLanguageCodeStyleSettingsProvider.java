@@ -36,6 +36,6 @@ public class YamlLanguageCodeStyleSettingsProvider extends LanguageCodeStyleSett
 	}
 
 	public String getCodeSample(@NotNull SettingsType settingsType) {
-		return "product:\n  name: Yaml\n  version: 4\n  vendor: vermut@kid.lv\n  url: \"https://github.com/vermut/intellij-ansible/\"";
+		return "product:\n  name: Yaml\n  version: 4\n  vendor: vermut@pm.me\n  url: \"https://github.com/vermut/intellij-ansible/\"";
 	}
 }
