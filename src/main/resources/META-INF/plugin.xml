@@ -27,7 +27,7 @@
         ]]>
     </change-notes>
     <vendor url="https://github.com/vermut/intellij-ansible" email="vermut@pm.me">Pavels Veretennikovs</vendor>
-    <idea-version since-build="191"/>
+    <idea-version since-build="183"/>
     <depends>com.intellij.modules.lang</depends>
 
     <!-- IDEA extensions -->

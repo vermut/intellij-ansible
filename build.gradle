@@ -18,7 +18,7 @@ intellij {
     pluginName 'intellij-ansible'
     updateSinceUntilBuild false
     type "IC"
-    version 'IC-2019.1'
+    version 'IC-2018.3.2'
 }
 
 group 'lv.kid.vermut.intellij'
