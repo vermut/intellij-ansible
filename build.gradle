@@ -29,7 +29,8 @@ patchPluginXml {
 }
 
 publishPlugin {
-    apply from: "jetbrains.account"
+    if (System.getenv('CI') == null)
+        apply from: "jetbrains.account"
 }
 
 repositories {
