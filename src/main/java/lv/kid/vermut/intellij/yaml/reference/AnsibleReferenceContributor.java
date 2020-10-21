@@ -77,7 +77,13 @@ public class AnsibleReferenceContributor extends PsiReferenceContributor {
 
     public static PsiElementPattern.Capture<NeonScalar> srcRefPattern() {
         return psiElement(NeonScalar.class)
-                .afterSibling(psiElement(NeonKey.class).andOr(psiElement().withText("src"), psiElement().withText("include"), psiElement().withText("include_vars")))
+                .afterSibling(psiElement(NeonKey.class).andOr(
+                        psiElement().withText("src"),
+                        psiElement().withText("include"),
+                        psiElement().withText("include_vars"),
+                        psiElement().withText("import_tasks"),
+                        psiElement().withText("include_tasks")
+                        ))
                 .withLanguage(YamlLanguage.INSTANCE);
     }
 }
