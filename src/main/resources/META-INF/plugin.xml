@@ -17,6 +17,7 @@
         ]]></description>
     <change-notes>
         <![CDATA[
+        <p>Changes 0.11.2: Fixed quick-documentation</p>
         <p>Changes 0.11.0: Fixed a number of exceptions</p>
         <p>Changes 0.10.0: Recompiled and updated to support latest IDEs</p>
         <p>Changes 0.9.5: Fixed few NPE's and network access assertion error</p>
